@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : ""
-description              : ""
+title                    : "Zhetong Zhang"
+description              : "Personal Homepage"
 repository               : "ztongwv/ztongwv.github.io"
 google_scholar_stats_use_cdn : false
 
