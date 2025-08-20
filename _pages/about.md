@@ -34,6 +34,10 @@ redirect_from:
 
 
 
+<style>
+  .paper-box { display: flex; }
+  .paper-box-image + .paper-box-image { margin-left: 20px; } /* 只给后面的图片加左间距 */
+</style>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
