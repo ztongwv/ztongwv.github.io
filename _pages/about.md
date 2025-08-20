@@ -23,19 +23,19 @@ redirect_from:
 
 
 
-# 📝 Publications 
+# 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025中国国际大学生创新大赛</div><img src='images/2025gcs.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+
+
+
+</div>
+</div>
+
+
 [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11065739)
-
-
-</div>
-</div>
-
-
-
 # 🎖 Honors and Awards
 - *2023.08* 		全国大学生电子设计竞赛	全国二等奖
 
