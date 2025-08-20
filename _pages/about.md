@@ -40,10 +40,6 @@ redirect_from:
     </div>
   </div>
   
-  <div>
-    &emsp;&emsp;
-  </div>
-  
   <div class='paper-box-image'>
         <div>
             <div class="badge">2025中国国际大学生创新大赛</div>
