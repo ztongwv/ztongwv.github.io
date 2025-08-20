@@ -26,13 +26,9 @@ redirect_from:
 # 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025中国国际大学生创新大赛</div><img src='images/2025gcs.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-</div>
-</div>
 
-
-<div class='paper-box'>
-  <!-- 图片容器区域 -->
+  
+    <!-- 图片容器区域 -->
   <div class='paper-box-image'>
     <div>
       <!-- 标签徽章元素 -->
@@ -44,7 +40,17 @@ redirect_from:
         width="100%"
       >
     </div>
-  </div>
+
+
+    
+<div class='paper-box-text' markdown="1">
+</div>
+</div>
+
+
+
+
+
   
   <!-- 文本内容区域 -->
 
@@ -52,10 +58,8 @@ redirect_from:
 
 
 
-  <div class='paper-box-text' markdown="1">
-    [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11065739)
-  </div>
 
+    [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11065739)
 
 
 # 🎖 Honors and Awards
