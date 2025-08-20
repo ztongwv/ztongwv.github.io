@@ -50,15 +50,15 @@ redirect_from:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">模板</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <div class="badge">2024全国大学生智能汽车竞赛</div>
+      <img src='images/2024cs.jpg' alt="sym" width="100%">
     </div>
   </div>
   
   <div class='paper-box-image'>
         <div>
             <div class="badge">2025中国国际大学生创新大赛</div>
-            <img src='images/2025gcs.jpg' alt="2025中国国际大学生创新大赛相关图片" width="100%">
+            <img src='images/2025gcs.jpg' alt="2025中国国际大学生创新大赛" width="100%">
         </div>
     </div>
   <div class='paper-box-text' markdown="1">
