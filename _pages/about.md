@@ -50,7 +50,7 @@ redirect_from:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">2024全国大学生智能汽车竞赛</div>
+      <div class="badge">2024全国大学生智能汽车竞赛(右一)</div>
       <img src='images/2024cs.jpg' alt="sym" width="100%">
     </div>
   </div>
