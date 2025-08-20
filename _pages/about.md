@@ -32,8 +32,14 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">模板</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-   
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">模板</div>
+      <img src='images/500x300.png' alt="sym" width="100%">
+    </div>
+  </div>
+   &nbsp;
   <div class='paper-box-image'>
         <div>
             <!-- 标签/徽章元素，用于显示赛事名称，通过badge类设置标签样式 -->
