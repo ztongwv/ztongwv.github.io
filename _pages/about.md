@@ -27,16 +27,22 @@ redirect_from:
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025中国国际大学生创新大赛</div><img src='images/2025gcs.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-  省银两项，省铜一项
+  省银两项<br>
+  省铜一项<br>
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">模板</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  内容啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊  <br>
-  aaa  <br>
-  内容啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊  <br>
-</div>
+   
+  <div class='paper-box-image'>
+        <div>
+            <!-- 标签/徽章元素，用于显示赛事名称，通过badge类设置标签样式 -->
+            <div class="badge">2025中国国际大学生创新大赛</div>
+            <!-- 赛事相关图片，src指定图片路径，alt为替代文本，width确保图片适应容器宽度 -->
+            <img src='images/2025gcs.jpg' alt="2025中国国际大学生创新大赛相关图片" width="100%">
+        </div>
+    </div>
+  
 </div>
 
 [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11065739)
