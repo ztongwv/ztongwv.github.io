@@ -47,17 +47,17 @@ redirect_from:
   </div>
   
   <!-- 文本内容区域 -->
-  <div class='paper-box-text' markdown="1">
-    <!-- 此处为 markdown 文本内容 -->
-  </div>
+
 </div>
 
 
 
+  <div class='paper-box-text' markdown="1">
+    [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11065739)
+  </div>
 
 
 
-[IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11065739)
 # 🎖 Honors and Awards
 - *2023.08* 		全国大学生电子设计竞赛	全国二等奖
 
