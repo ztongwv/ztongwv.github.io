@@ -36,9 +36,7 @@ redirect_from:
 
 <style>
   .paper-box { display: flex; }
-  .paper-box-image + .paper-box-image { margin-left: 20px; } /* 只给后面的图片加左间距 */
-  /*.badge { display: inline-block; padding: 4px 8px; background: #e53e3e; color: white; font-size: 12px; border-radius: 4px; margin-bottom: 8px; }*/
-
+  .paper-box-image + .paper-box-image { margin-left: 20px; }  /*.badge { display: inline-block; padding: 4px 8px; background: #e53e3e; color: white; font-size: 12px; border-radius: 4px; margin-bottom: 8px; }*/
 </style>
 
 <div class='paper-box'>
