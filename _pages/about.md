@@ -39,12 +39,14 @@ redirect_from:
       <img src='images/500x300.png' alt="sym" width="100%">
     </div>
   </div>
-   &nbsp;
+  
+  <div>
+    &emsp;&emsp;
+  </div>
+  
   <div class='paper-box-image'>
         <div>
-            <!-- 标签/徽章元素，用于显示赛事名称，通过badge类设置标签样式 -->
             <div class="badge">2025中国国际大学生创新大赛</div>
-            <!-- 赛事相关图片，src指定图片路径，alt为替代文本，width确保图片适应容器宽度 -->
             <img src='images/2025gcs.jpg' alt="2025中国国际大学生创新大赛相关图片" width="100%">
         </div>
     </div>
