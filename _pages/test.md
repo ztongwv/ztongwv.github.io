@@ -1,11 +1,11 @@
 ---
-permalink: /research/
+permalink: /
 title: "张哲通"
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /test/
+  - /test.html
 ---
 
 
