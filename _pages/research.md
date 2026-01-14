@@ -1,93 +1,46 @@
 ---
-layout: default
-title: Research
-permalink: /research/
+layout: default        # 沿用模板样式，和首页风格统一
+title: Research        # 新页面标题
+permalink: /research/  # 新页面访问路径，和导航栏url一致
 ---
 
-<!-- 中英文切换按钮 -->
-<div style="margin: 30px 0; text-align: center;">
-  <button onclick="switchLang('zh')" style="padding: 10px 24px; margin: 0 8px; border: none; border-radius: 6px; background: #2c3e50; color: white; cursor: pointer; font-size: 16px;">中文</button>
-  <button onclick="switchLang('en')" style="padding: 10px 24px; margin: 0 8px; border: 1px solid #2c3e50; border-radius: 6px; background: white; color: #2c3e50; cursor: pointer; font-size: 16px;">English</button>
+<!-- 仅保留这一行HTML按钮（极简），其余全是MD -->
+<button onclick="switchLang('zh')" style="padding:8px 20px;margin:0 5px;background:#2c3e50;color:white;border:none;border-radius:4px;cursor:pointer;">中文</button>
+<button onclick="switchLang('en')" style="padding:8px 20px;margin:0 5px;background:white;color:#2c3e50;border:1px solid #2c3e50;border-radius:4px;cursor:pointer;">English</button>
+
+<!-- 中文内容（纯Markdown） -->
+<div id="zh-content">
+# 研究方向 & 成果
+## 核心研究方向
+1. 填写你的研究方向1（如：深度学习在医疗影像中的应用）
+2. 填写你的研究方向2（如：联邦学习算法优化）
+
+## 研究项目
+1. 项目名称：XXX
+   周期：XXXX-XXXX
+   成果：XXX
 </div>
 
-<!-- 中文内容区块 -->
-<div id="zh-content" style="line-height: 1.8; font-size: 16px; color: #333;">
-  <h1>研究方向 & 成果</h1>
-  <h2>核心研究方向</h2>
-  <ol style="margin-left: 20px; line-height: 2;">
-    <li>填写你的研究方向1（如：深度学习在医疗影像中的应用）</li>
-    <li>填写你的研究方向2（如：联邦学习算法优化）</li>
-  </ol>
+<!-- 英文内容（纯Markdown，默认隐藏） -->
+<div id="en-content" style="display:none;">
+# Research Directions & Achievements
+## Core Research Directions
+1. Fill in your research direction 1 (e.g.: Application of deep learning in medical imaging)
+2. Fill in your research direction 2 (e.g.: Federated learning algorithm optimization)
 
-  <h2 style="margin-top: 30px;">研究项目</h2>
-  <ol style="margin-left: 20px; line-height: 2;">
-    <li>
-      <strong>项目名称：</strong>XXX<br>
-      <strong>周期：</strong>XXXX-XXXX<br>
-      <strong>成果：</strong>XXX
-    </li>
-  </ol>
+## Research Projects
+1. Project Name: XXX
+   Period: XXXX-XXXX
+   Achievements: XXX
 </div>
 
-<!-- 英文内容区块（默认隐藏） -->
-<div id="en-content" style="display: none; line-height: 1.8; font-size: 16px; color: #333;">
-  <h1>Research Directions & Achievements</h1>
-  <h2>Core Research Directions</h2>
-  <ol style="margin-left: 20px; line-height: 2;">
-    <li>Fill in your research direction 1 (e.g.: Application of deep learning in medical imaging)</li>
-    <li>Fill in your research direction 2 (e.g.: Federated learning algorithm optimization)</li>
-  </ol>
-
-  <h2 style="margin-top: 30px;">Research Projects</h2>
-  <ol style="margin-left: 20px; line-height: 2;">
-    <li>
-      <strong>Project Name：</strong>XXX<br>
-      <strong>Period：</strong>XXXX-XXXX<br>
-      <strong>Achievements：</strong>XXX
-    </li>
-  </ol>
-</div>
-
-<!-- 切换逻辑JS -->
+<!-- 仅保留这几行JS（极简），无其他HTML -->
 <script>
-// 切换语言核心函数
 function switchLang(lang) {
-  // 隐藏所有语言区块
-  document.getElementById('zh-content').style.display = 'none';
-  document.getElementById('en-content').style.display = 'none';
-  // 显示选中的语言区块
-  document.getElementById(lang + '-content').style.display = 'block';
-  // 同步修改页面标题
-  if (lang === 'zh') {
-    document.title = '研究方向 & 成果 | Zhetong Zhang';
-  } else {
-    document.title = 'Research Directions & Achievements | Zhetong Zhang';
-  }
+  document.getElementById('zh-content').style.display = lang === 'zh' ? 'block' : 'none';
+  document.getElementById('en-content').style.display = lang === 'en' ? 'block' : 'none';
+  document.title = lang === 'zh' ? '研究方向 & 成果 | Zhetong Zhang' : 'Research Directions & Achievements | Zhetong Zhang';
 }
-
 // 页面加载默认显示中文
-window.onload = function() {
-  switchLang('zh');
-};
+window.onload = () => switchLang('zh');
 </script>
-
-<!-- 样式优化（可选，提升美观度） -->
-<style>
-  h1 {
-    color: #2c3e50;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-  }
-  h2 {
-    color: #34495e;
-    margin-top: 25px;
-  }
-  li {
-    margin-bottom: 10px;
-  }
-  button:hover {
-    opacity: 0.9;
-    transition: opacity 0.2s ease;
-  }
-</style>
