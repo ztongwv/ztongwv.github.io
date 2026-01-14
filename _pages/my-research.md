@@ -7,7 +7,6 @@ toc: false
 sidebar: true
 redirect_from: 
   - /my-research/
-  - /my-research
 ---
 
 <span class='anchor' id='research-me'></span>
