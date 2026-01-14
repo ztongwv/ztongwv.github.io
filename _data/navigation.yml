@@ -23,7 +23,7 @@
   
 #   - title: "我的研究"  
 #     url: "/my-research/"  # 改：从/test/改为新路径/my-research/，避开冲突
-main links links
+# 修复后的 navigation.yml 配置
 main:
   - title: "Home"          
     url: "/"    
@@ -32,22 +32,22 @@ main:
     url: "/#about-me"    
 
   - title: "News"
-    url: "/#-news"       
+    url: "/#news"        # 移除冗余的 "-" 符号，格式更规范
 
   - title: "Public"
-    url: "/#-public"      
+    url: "/#public"       # 同上
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"  
+    url: "/#honors-and-awards"  
 
   - title: "Educations"
-    url: "/#-educations" 
+    url: "/#educations" 
 
   - title: "Invited Talks"
-    url: "/#-invited-talks"
+    url: "/#invited-talks"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/#internships"
 
-  - title: "research"  
+  - title: "Research"  # 首字母大写，与其他项格式统一（非语法要求，仅优化）
     url: "/research/"
