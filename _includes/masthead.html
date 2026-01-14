@@ -1,4 +1,4 @@
-<div class="masthead">
+<!-- <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -7,6 +7,30 @@
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <!-- 修复1：Homepage链接指向首页根路径 + 锚点，所有页面点击都能回到首页 -->
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="/#about-me">Homepage</a>
+          </li>
+          <!-- 修复2：移除未定义的 {{ domain }}，直接使用 link.url（确保url是根路径） -->
+          {% for link in site.data.navigation.main %}
+            <li class="masthead__menu-item">
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
