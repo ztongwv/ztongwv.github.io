@@ -1,11 +1,8 @@
 ---
-permalink: /
-title: "张哲通"
-excerpt: ""
-author_profile: true
-redirect_from: 
-  - /test/
-  - /test.html
+layout: default               # 必须加：继承模板样式，和首页保持一致
+title: "我的研究"             # 页面标题
+permalink: /my-research/      # 改：和导航栏url完全一致，唯一路径
+author_profile: true          # 可选：显示个人信息栏，和首页一致
 ---
 
 <span class='anchor' id='about-me'></span>
