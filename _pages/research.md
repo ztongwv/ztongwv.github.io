@@ -1,18 +1,15 @@
 ---
-layout: default
-permalink: /my-research/
-title: "research"
-redirect_from: 
-  - /research/
-  - /research.html
+layout: default        # 沿用模板样式，和首页风格统一
+title: Research        # 新页面标题
+permalink: /research/  # 新页面访问路径，和导航栏url一致
 ---
 
-
+# 研究方向 & 成果
 ## 核心研究方向
-### 计算机视觉
-1.  目标检测：RT-DETR 模型轻量化与精度优化
-2.  边缘计算：低 GFLOPs 模型的实时推理部署
+1. 填写你的研究方向1（如：深度学习在医疗影像中的应用）
+2. 填写你的研究方向2（如：联邦学习算法优化）
 
-### 已开展项目
-- 面向自动驾驶的 RT-DETR 改进算法研究（2024-2025）
-- 工业质检场景的轻量化目标检测系统开发（2023-2024）
+## 研究项目
+1. 项目名称：XXX
+   周期：XXXX-XXXX
+   成果：XXX
