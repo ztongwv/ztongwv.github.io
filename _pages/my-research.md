@@ -4,7 +4,7 @@ permalink: /my-research/
 title: "我的研究"
 ---
 
-<span class='anchor' id='research-me'></span>
+
 
 ## 核心研究方向
 ### 计算机视觉
