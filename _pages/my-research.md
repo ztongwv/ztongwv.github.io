@@ -1,13 +1,9 @@
-
-
 ---
 layout: default
 permalink: /my-research/
 title: "我的研究"
-excerpt: ""
 author_profile: true
 ---
-
 
 <span class='anchor' id='research-me'></span>
 
