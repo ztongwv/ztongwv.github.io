@@ -1,51 +1,5 @@
-# # main links links
-# main:
-#   - title: "About Me"
-#     url: "/#about/"
-
-#   - title: "News"
-#     url: "/#-news"
-
-#   - title: "Public"
-#     url: "/#-public"
-
-#   - title: "Honors and Awards"
-#     url: "/#-honors-and-awards"
-
-#   - title: "Educations"
-#     url: "/#-educations"
-
-#   - title: "Invited Talks"
-#     url: "/#-invited-talks"
-
-#   - title: "Internships"
-#     url: "/#-internships"
-  
-#   - title: "我的研究"  
-#     url: "/my-research/"  # 改：从/test/改为新路径/my-research/，避开冲突
-# 修复后的 navigation.yml 配置
-# main links links
 main:
-  - title: "About Me"          # 点击跳回首页的About Me锚点（首页核心入口）
-    url: "/#about-me"
-
-  - title: "News"
-    url: "/#-news"
-
-  - title: "Public"
-    url: "/#-public"
-
-  - title: "Research"          # 新增：跳转到research新页面
-    url: "/research/"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "About"        # 导航显示About
+    url: "/#about-me"     # 跳转到首页about的锚点
+  - title: "Research"     # 导航显示Research
+    url: "/research/"     # 跳转到research子页面
