@@ -22,15 +22,13 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <!-- 修复1：Homepage链接指向首页根路径 + 锚点，所有页面点击都能回到首页 -->
+          <!-- 关键：Homepage指向about（首页）的#about-me，根路径/确保所有页面跳转正确 -->
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
             <a href="/#about-me">Homepage</a>
           </li>
-          <!-- 修复2：移除未定义的 {{ domain }}，直接使用 link.url（确保url是根路径） -->
+          <!-- 循环渲染导航项，移除无效的domain变量 -->
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url }}">{{ link.title }}</a>
-            </li>
+            <li class="masthead__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
