@@ -2,12 +2,12 @@
 layout: default
 permalink: /my-research/
 title: "我的研究"
-author_profile: true
-toc: false
-sidebar: true
+redirect_from: 
+  - /research/
+  - /research.html
 ---
 
-<span class='anchor' id='research-me'></span>
+<span class='anchor' id='research'></span>
 
 ## 核心研究方向
 ### 计算机视觉
