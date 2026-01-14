@@ -49,5 +49,5 @@ main:
   - title: "Internships"
     url: "/#-internships"  # 匹配about.md里的id="-internships"
 
-  - title: "我的研究"  
-    url: "/my-research/"   # 独立页面，正确（只要my-research.md的permalink是这个）
+  - title: "research"  
+    url: "/research/"   # 独立页面，正确（只要my-research.md的permalink是这个）
