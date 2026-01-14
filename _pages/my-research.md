@@ -1,5 +1,5 @@
 ---
-layout: default
+
 permalink: /my-research/
 title: "我的研究"
 author_profile: true
