@@ -21,7 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "张哲通          Zhetong Zhang"
+  name             : "张哲通"
+  name             : "Zhetong Zhang"   
   avatar           : "/images/android-chrome-512x512.png"
   bio              : "Northeast Petroleum University"
   location         : "Daqing, China"
