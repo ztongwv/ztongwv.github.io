@@ -19,28 +19,28 @@ redirect_from:
 
 
 # 📖 Educations
-- *2022.09 - now*, 东北石油大学, 电子科学与技术(国家一流本科专业),学士
-  在校期间担任电子创新设计基地学生总负责人，天方科技创新创业协会主席，华为云高校开发者联盟东北石油大学负责人。
+- *2022.09 - Present*, Northeast Petroleum University, Bachelor of Science in Electronic Science and Technology
+- During my undergraduate studies, I served as the Chief Student Manager of the Electronic Innovation and Design Base, President of Tianfangke Innovation and Entrepreneurship Association, and the Person in Charge of Huawei Cloud University Developer Alliance at Northeast Petroleum University.
 
 # 🎖 Honors and Awards	
-- 蓝冰河(常州)精密测量技术有限责任公司企业奖学⾦1项      *2025.05*
-- 东北石油大学优秀学生奖学⾦3项                         *2022-2025*
-- 东北石油大学优秀社团干部                             *2024.05*
-- 东北石油大学优秀社团干部标兵                          *2024.05*
-- 全国大学生电子设计竞赛        全国二等奖              *2023.08*
-- 中国TRIZ杯大学生创新方法大赛  全国二等奖              *2025.08*
-- 中国国际大学生创新大赛        全国铜奖                *2024.11*
-- 全国大学生物理实验竞赛        全国三等奖              *2024.11* 
-- 全国大学生智能汽车竞赛        东北赛区二等奖          *2023.07*
-- 全国大学生智能汽车竞赛        东北赛区二等奖          *2024.07*
-- 中国国际大学生创新大赛        黑龙江省金奖            *2024.08*  
-- ICAN大学生创新创业大赛        黑龙江省一等奖          *2024.11* 		  
-- 全国大学生数学建模竞赛        黑龙江省二等奖          *2023.11*
-- 全国大学生机械创新设计大赛    黑龙江省二等奖          *2024.05*
-- 全国大学生光电设计竞赛        黑龙江省二等奖          *2024.05*
-- 中国国际大学生创新大赛        黑龙江省银奖            *2025.08* 		
-- 中国国际大学生创新大赛        黑龙江省银奖            *2025.08* 		
-- 中国国际大学生创新大赛        黑龙江省铜奖            *2025.08*
+- Lanbinghe (Changzhou) Precision Measurement Technology Co., Ltd. Corporate Scholarship, 1 time      *May 2025*
+- Northeast Petroleum University Excellent Student Scholarship, 3 times                         *2022-2025*
+- Northeast Petroleum University Excellent Community Cadre                             *May 2024*
+- Northeast Petroleum University Model Excellent Community Cadre                          *May 2024*
+- National Undergraduate Electronic Design Competition        National Second Prize              *August 2023*
+- China TRIZ Cup University Student Innovation Method Competition  National Second Prize              *August 2025*
+- China International College Students' Innovation and Entrepreneurship Competition        National Bronze Award                *November 2024*
+- National University Physics Experiment Competition        National Third Prize              *November 2024* 
+- National University Intelligent Vehicle Competition        Second Prize of Northeast Division          *July 2023*
+- National University Intelligent Vehicle Competition        Second Prize of Northeast Division          *July 2024*
+- China International College Students' Innovation and Entrepreneurship Competition        Heilongjiang Provincial Gold Award            *August 2024*  
+- ICAN College Students' Innovation and Entrepreneurship Competition        Heilongjiang Provincial First Prize          *November 2024* 		  
+- National Undergraduate Mathematical Modeling Competition        Heilongjiang Provincial Second Prize          *November 2023*
+- National University Mechanical Innovation Design Competition    Heilongjiang Provincial Second Prize          *May 2024*
+- National University Optoelectronic Design Competition        Heilongjiang Provincial Second Prize          *May 2024*
+- China International College Students' Innovation and Entrepreneurship Competition        Heilongjiang Provincial Silver Award            *August 2025* 		
+- China International College Students' Innovation and Entrepreneurship Competition        Heilongjiang Provincial Silver Award            *August 2025* 		
+- China International College Students' Innovation and Entrepreneurship Competition        Heilongjiang Provincial Bronze Award            *August 2025*
 
 # 🎞 Public
 <style>
@@ -51,15 +51,15 @@ redirect_from:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">2024全国大学生智能汽车竞赛(右一)</div>
-      <img src='images/2024cs.jpg' alt="sym" width="100%">
+      <div class="badge">2024 National University Intelligent Vehicle Competition (1st from the right)</div>
+      <img src='images/2024cs.jpg' alt="2024 National University Intelligent Vehicle Competition" width="100%">
     </div>
   </div>
   
   <div class='paper-box-image'>
         <div>
-            <div class="badge">2025中国国际大学生创新大赛</div>
-            <img src='images/2025gcs.jpg' alt="2025中国国际大学生创新大赛" width="100%">
+            <div class="badge">2025 China International College Students' Innovation and Entrepreneurship Competition</div>
+            <img src='images/2025gcs.jpg' alt="2025 China International College Students' Innovation and Entrepreneurship Competition" width="100%">
         </div>
     </div>
   <div class='paper-box-text' markdown="1">
@@ -68,11 +68,3 @@ redirect_from:
 </div>
 
 [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11065739)
-
-
-
-
-
-
-
-
