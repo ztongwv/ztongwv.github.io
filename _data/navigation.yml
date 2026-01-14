@@ -25,29 +25,29 @@
 #     url: "/my-research/"  # 改：从/test/改为新路径/my-research/，避开冲突
 # main links links
 main:
-  - title: "Home"          # 新增：首页入口，明确指向根地址
-    url: "/"               # 核心：跳转到首页（permalink: / 的页面）
+  - title: "Home"          
+    url: "/"               # 正确：跳转到about.md（首页）的根地址
 
   - title: "About Me"
-    url: "/#about-me/"
+    url: "/#about-me"      # 必须匹配about.md里的id="about-me"（无多余/）
 
   - title: "News"
-    url: "/#-news"
+    url: "/#-news"         # 匹配about.md里的id="-news"
 
   - title: "Public"
-    url: "/#-public"
+    url: "/#-public"       # 匹配about.md里的id="-public"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#-honors-and-awards"  # 匹配about.md里的id="-honors-and-awards"
 
   - title: "Educations"
-    url: "/#-educations"
+    url: "/#-educations"   # 匹配about.md里的id="-educations"
 
   - title: "Invited Talks"
-    url: "/#-invited-talks"
+    url: "/#-invited-talks" # 匹配about.md里的id="-invited-talks"
 
   - title: "Internships"
-    url: "/#-internships"
-  
+    url: "/#-internships"  # 匹配about.md里的id="-internships"
+
   - title: "我的研究"  
-    url: "/my-research/"  # 保留你的独立页面链接（或改回/test/，只要路径绑定正确）
+    url: "/my-research/"   # 独立页面，正确（只要my-research.md的permalink是这个）
