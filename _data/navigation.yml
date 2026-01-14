@@ -29,7 +29,7 @@ main:
     url: "/"               # 核心：跳转到首页（permalink: / 的页面）
 
   - title: "About Me"
-    url: "/#about/"
+    url: "/#about me/"
 
   - title: "News"
     url: "/#-news"
