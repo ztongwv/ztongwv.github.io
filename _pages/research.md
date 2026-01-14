@@ -1,7 +1,7 @@
-请直接帮我改好---
-layout: default        # 沿用模板样式，和首页风格统一
-title: Research        # 新页面标题
-permalink: /research/  # 新页面访问路径，和导航栏url一致
+---
+layout: default
+title: Research 
+permalink: /research/ 
 ---
 
 # 研究方向 & 成果
