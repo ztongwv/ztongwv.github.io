@@ -1,21 +1,15 @@
 
 
 ---
-layout: default               # 必须加：继承模板样式，和首页保持一致
-permalink: /my-research/      # 改：和导航栏url完全一致，唯一路径
-title: "我的研究"             # 页面标题
+# layout: default
+permalink: /my-research/
+title: "我的研究"
 excerpt: ""
 author_profile: true
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='research-me'></span>
 
 ## 核心研究方向
 ### 计算机视觉
