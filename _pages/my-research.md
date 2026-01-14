@@ -5,8 +5,6 @@ title: "我的研究"
 author_profile: true
 toc: false
 sidebar: true
-redirect_from: 
-  - /my-research/
 ---
 
 <span class='anchor' id='research-me'></span>
