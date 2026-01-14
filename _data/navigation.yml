@@ -1,5 +1,33 @@
+# # main links links
+# main:
+#   - title: "About Me"
+#     url: "/#about/"
+
+#   - title: "News"
+#     url: "/#-news"
+
+#   - title: "Public"
+#     url: "/#-public"
+
+#   - title: "Honors and Awards"
+#     url: "/#-honors-and-awards"
+
+#   - title: "Educations"
+#     url: "/#-educations"
+
+#   - title: "Invited Talks"
+#     url: "/#-invited-talks"
+
+#   - title: "Internships"
+#     url: "/#-internships"
+  
+#   - title: "我的研究"  
+#     url: "/my-research/"  # 改：从/test/改为新路径/my-research/，避开冲突
 # main links links
 main:
+  - title: "Home"          # 新增：首页入口，明确指向根地址
+    url: "/"               # 核心：跳转到首页（permalink: / 的页面）
+
   - title: "About Me"
     url: "/#about/"
 
@@ -22,4 +50,4 @@ main:
     url: "/#-internships"
   
   - title: "我的研究"  
-    url: "/my-research/"  # 改：从/test/改为新路径/my-research/，避开冲突
+    url: "/my-research/"  # 保留你的独立页面链接（或改回/test/，只要路径绑定正确）
