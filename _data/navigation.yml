@@ -24,30 +24,28 @@
 #   - title: "我的研究"  
 #     url: "/my-research/"  # 改：从/test/改为新路径/my-research/，避开冲突
 # 修复后的 navigation.yml 配置
+# main links links
 main:
-  - title: "Home"          
-    url: "/"    
-
-  - title: "About Me"
-    url: "/#about-me"    
+  - title: "About Me"          # 点击跳回首页的About Me锚点（首页核心入口）
+    url: "/#about-me"
 
   - title: "News"
-    url: "/#news"        # 移除冗余的 "-" 符号，格式更规范
+    url: "/#-news"
 
   - title: "Public"
-    url: "/#public"       # 同上
+    url: "/#-public"
+
+  - title: "Research"          # 新增：跳转到research新页面
+    url: "/research/"
 
   - title: "Honors and Awards"
-    url: "/#honors-and-awards"  
+    url: "/#-honors-and-awards"
 
   - title: "Educations"
-    url: "/#educations" 
+    url: "/#-educations"
 
   - title: "Invited Talks"
-    url: "/#invited-talks"
+    url: "/#-invited-talks"
 
   - title: "Internships"
-    url: "/#internships"
-
-  - title: "Research"  # 首字母大写，与其他项格式统一（非语法要求，仅优化）
-    url: "/research/"
+    url: "/#-internships"
