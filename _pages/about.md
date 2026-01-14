@@ -23,7 +23,7 @@ redirect_from:
   - During my undergraduate studies, I held the following positions:
     - Chief Student Manager, Innovation Base of Electronic Engineering Experiment Center
     - President, Tianfangke Innovation and Entrepreneurship Association
-    - Person in Charge, Huawei Cloud University Developer Alliance at Northeast Petroleum University
+    - Campus Ambassador, Huawei Cloud University Developer Alliance at Northeast Petroleum University
 
 # 🎖 Honors and Awards	
 - Lanbinghe (Changzhou) Precision Measurement Technology Co., Ltd. Corporate Scholarship, 1 time      *May 2025*
