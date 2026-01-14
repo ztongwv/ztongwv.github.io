@@ -23,31 +23,31 @@
   
 #   - title: "我的研究"  
 #     url: "/my-research/"  # 改：从/test/改为新路径/my-research/，避开冲突
-# main links links
+main links links
 main:
   - title: "Home"          
-    url: "/"               # 正确：跳转到about.md（首页）的根地址
+    url: "/"    
 
   - title: "About Me"
-    url: "/#about-me"      # 必须匹配about.md里的id="about-me"（无多余/）
+    url: "/#about-me"    
 
   - title: "News"
-    url: "/#-news"         # 匹配about.md里的id="-news"
+    url: "/#-news"       
 
   - title: "Public"
-    url: "/#-public"       # 匹配about.md里的id="-public"
+    url: "/#-public"      
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"  # 匹配about.md里的id="-honors-and-awards"
+    url: "/#-honors-and-awards"  
 
   - title: "Educations"
-    url: "/#-educations"   # 匹配about.md里的id="-educations"
+    url: "/#-educations" 
 
   - title: "Invited Talks"
-    url: "/#-invited-talks" # 匹配about.md里的id="-invited-talks"
+    url: "/#-invited-talks"
 
   - title: "Internships"
-    url: "/#-internships"  # 匹配about.md里的id="-internships"
+    url: "/#-internships"
 
   - title: "research"  
-    url: "/research/"   # 独立页面，正确（只要my-research.md的permalink是这个）
+    url: "/research/"
