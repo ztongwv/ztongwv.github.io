@@ -2,10 +2,12 @@
 layout: default
 permalink: /my-research/
 title: "我的研究"
-excerpt: ""
 author_profile: true
 toc: false
 sidebar: true
+redirect_from: 
+  - /my-research/
+  - /my-research
 ---
 
 <span class='anchor' id='research-me'></span>
