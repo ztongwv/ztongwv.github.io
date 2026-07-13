@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhetong Zhang | Academic Homepage</title>
-    <meta name="description" content="Personal Academic Homepage of Zhetong Zhang (张哲通) - Undergraduate Researcher in Micro-nanorobot Navigation & Industrial IoT Computer Vision.">
+    <meta name="description"
+        content="Personal Academic Homepage of Zhetong Zhang (张哲通) - Undergraduate Researcher in Micro-nanorobot Navigation & Industrial IoT Computer Vision.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
     <!-- Lucide Icons for premium feel -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="styles.css">
+    <meta name="keywords" content="Zhetong Zhang, 张哲通, microrobotics, VLA, computer vision, IROS, academic homepage">
+    <meta name="author" content="Zhetong Zhang">
 </head>
+
 <body class="dark-mode">
     <!-- Background elements for ambient glow -->
     <div class="ambient-glow bg-glow-1"></div>
     <div class="ambient-glow bg-glow-2"></div>
 
-    <!-- Header Navigation -->
     <header class="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">
@@ -49,6 +55,10 @@
                     <span class="lang-en">Awards</span>
                     <span class="lang-zh">个人荣誉</span>
                 </a>
+                <a href="#patents" class="nav-link" id="nav-patents">
+                    <span class="lang-en">Patents</span>
+                    <span class="lang-zh">专利著作</span>
+                </a>
                 <a href="#skills" class="nav-link" id="nav-skills">
                     <span class="lang-en">Skills</span>
                     <span class="lang-zh">专业技能</span>
@@ -78,9 +88,10 @@
         <aside class="sidebar">
             <div class="profile-card card animate-fade-in">
                 <div class="profile-img-container">
-                    <img src="assets/profile_full.jpg" alt="Zhetong Zhang" class="profile-img" onerror="this.src='assets/avatar.png'">
+                    <img src="assets/profile_full.jpg" alt="Zhetong Zhang" class="profile-img"
+                        onerror="this.src='assets/avatar.png'">
                 </div>
-                
+
                 <div class="profile-info">
                     <h1 class="profile-name">
                         <span class="lang-en">Zhetong Zhang</span>
@@ -113,8 +124,23 @@
                 </div>
 
                 <div class="profile-links">
-                    <a href="https://github.com/ztongwv" target="_blank" class="btn btn-primary" title="GitHub">
-                        <i data-lucide="github"></i> <span>GitHub</span>
+                    <a href="https://github.com/ztongwv" target="_blank" class="btn btn-primary" title="GitHub"
+                        rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                            fill="currentColor" aria-hidden="true" style="flex-shrink:0">
+                            <path
+                                d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.298 24 12c0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://scholar.google.com" target="_blank" class="btn btn-outline" title="Google Scholar"
+                        rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                            fill="currentColor" aria-hidden="true" style="flex-shrink:0">
+                            <path
+                                d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 10a8 8 0 0 1 7.162 3.44L24 9.5 12 0z" />
+                        </svg>
+                        <span>Scholar</span>
                     </a>
                 </div>
             </div>
@@ -127,20 +153,29 @@
                 </h3>
                 <ul class="stats-list">
                     <li>
-                        <span class="stat-label"><span class="lang-en">Education</span><span class="lang-zh">学历</span></span>
-                        <span class="stat-value"><span class="lang-en">B.Eng. (Graduated)</span><span class="lang-zh">工学学士 (已毕业)</span></span>
+                        <span class="stat-label"><span class="lang-en">Education</span><span
+                                class="lang-zh">学历</span></span>
+                        <span class="stat-value"><span class="lang-en">B.Eng. (Graduated)</span><span
+                                class="lang-zh">工学学士 (已毕业)</span></span>
                     </li>
                     <li>
-                        <span class="stat-label"><span class="lang-en">Score / Rank</span><span class="lang-zh">综合成绩/排名</span></span>
+                        <span class="stat-label"><span class="lang-en">Score / Rank</span><span
+                                class="lang-zh">综合成绩/排名</span></span>
                         <span class="stat-value">87.3 / 100 (6/96)</span>
                     </li>
                     <li>
-                        <span class="stat-label"><span class="lang-en">Publications</span><span class="lang-zh">发表论文</span></span>
-                        <span class="stat-value">8 <span class="lang-en">(4 First/Co-first)</span><span class="lang-zh">(4篇一作/共一)</span></span>
+                        <span class="stat-label"><span class="lang-en">Publications</span><span
+                                class="lang-zh">发表论文</span></span>
+                        <span class="stat-value">7 <span class="lang-en">(4 First/Co-first)</span><span
+                                class="lang-zh">(4篇一作/共一)</span></span>
                     </li>
                     <li>
-                        <span class="stat-label"><span class="lang-en">Honors</span><span class="lang-zh">荣誉奖励</span></span>
-                        <span class="stat-value">4 National / 10 Prov.</span>
+                        <span class="stat-label"><span class="lang-en">Honors</span><span
+                                class="lang-zh">荣誉奖励</span></span>
+                        <span class="stat-value">
+                            <span class="lang-en">4 National / 10 Prov.</span>
+                            <span class="lang-zh">4项国家级 / 10项省部级</span>
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -157,13 +192,24 @@
                 <div class="card about-card">
                     <div class="lang-en">
                         <p class="lead-text">
-                            I am a graduate majoring in <strong>Electronic Science and Technology</strong> (National First-class Program) at Northeast Petroleum University. I have been recognized as an <strong>Outstanding Graduate</strong>, and my graduation thesis was awarded <strong>Outstanding Graduation Design</strong>.
+                            I am a graduate majoring in <strong>Electronic Science and Technology</strong> (National
+                            First-class Program) at Northeast Petroleum University. I have been recognized as an
+                            <strong>Outstanding Graduate</strong>, and my graduation thesis was awarded
+                            <strong>Outstanding Graduation Design</strong>.
                         </p>
                         <p>
-                            I served as the overall Student Lead of the Innovation Base of the Electronic Engineering Experimental Center, and President of the Tianfang Sci-Tech Innovation Association. From January to March 2026, I worked as a <strong>Research Intern</strong> at the Intelligent Manufacturing and Precision Machining Laboratory, Tsinghua University.
+                            I served as the overall Student Lead of the Innovation Base of the Electronic Engineering
+                            Experimental Center, and President of the Tianfang Sci-Tech Innovation Association. From
+                            January to March 2026, I worked as a <strong>Research Intern</strong> at the Intelligent
+                            Manufacturing and Precision Machining Laboratory, Tsinghua University.
                         </p>
                         <p>
-                            My research interests center around Micro-nanorobot Autonomous Navigation (VLA Frameworks), Edge-Cloud Collaborative IoT, and Advanced Computer Vision Algorithms for industrial inspection. I have led 1 Provincial College Student Innovation Project, filed 3 patents, and authorized 2 software copyrights. I have published or submitted 8 academic papers (4 as first or co-first author), including submissions to IROS, JRTIP, and other venues.
+                            My research interests center around Micro-nanorobot Autonomous Navigation (VLA Frameworks),
+                            Edge-Cloud Collaborative IoT, and Advanced Computer Vision Algorithms for industrial
+                            inspection. I have led 1 Provincial College Student Innovation Project, filed 3 patents, and
+                            authorized 2 software copyrights. I have published or accepted 7 academic papers (4 as first
+                            or co-first author), including papers accepted at IROS, and submissions to JRTIP and other
+                            venues.
                         </p>
                     </div>
                     <div class="lang-zh">
@@ -171,10 +217,12 @@
                             我毕业于东北石油大学电子科学与技术专业（国家级一流本科专业建设点），荣获<strong>东北石油大学优秀毕业生</strong>，本科毕业设计荣获<strong>优秀毕业设计</strong>。
                         </p>
                         <p>
-                            在校期间，我担任了电子工程实验中心创新基地总负责人（学生）以及天方科技创新创业协会主席，并入选了华为云学生开发者计划（HCSD）负责人。2026年1月至3月，我在<strong>清华大学智能制造与精密加工实验室</strong>担任科研实习生。
+                            在校期间，我担任了学校电子工程实验中心创新基地学生总负责人以及天方科技创新创业协会主席，并入选了华为云学生开发者计划(HCSD)的校园大使
+                            。2026年1月至3月，我在<strong>清华大学智能制造与精密加工实验室</strong>担任科研实习生。
                         </p>
                         <p>
-                            我的核心研究方向为<strong>微纳机器人自主导航与操控（VLA具身智能框架）</strong>、<strong>云边协同工业物联网</strong>以及<strong>先进计算机视觉缺陷检测算法</strong>。我主持了黑龙江省大学生创新训练计划项目1项，申请国家专利3项（含发明专利1项），授权计算机软件著作权2项。在学术上，我撰写并发表/在审学术论文8篇（其中一作/共同一作累计4篇），研究成果投递于 IROS、JRTIP 等。
+                            我的核心研究方向为<strong>微纳机器人自主导航与操控（VLA具身智能框架）</strong>、<strong>云边协同工业物联网</strong>以及<strong>先进计算机视觉缺陷检测算法</strong>。我主持了黑龙江省大学生创新训练计划项目1项，申请国家专利3项（含发明专利1项），授权计算机软件著作权2项。在学术上，我撰写并发表/录用学术论文7篇（其中一作/共同一作累计4篇），研究成果发表于
+                            IROS 或投递于 JRTIP 等。
                         </p>
                     </div>
                 </div>
@@ -191,29 +239,45 @@
                         <li class="timeline-item">
                             <span class="timeline-date">2026.06</span>
                             <div class="timeline-content">
-                                <span class="lang-en">Graduated from Northeast Petroleum University. Recognized as an <strong>Outstanding Graduate</strong>, and my thesis was awarded the <strong>Outstanding Graduation Design</strong>.</span>
-                                <span class="lang-zh">从东北石油大学毕业，荣获<strong>优秀毕业生</strong>，本科毕业设计获评<strong>优秀毕业设计</strong>。</span>
+                                <span class="lang-en">Graduated from Northeast Petroleum University (Outstanding
+                                    Graduate & Thesis). Two papers (<em>MicroVLA</em> & <em>MG-VTLA</em>) accepted at
+                                    <strong>IEEE/RSJ IROS 2026</strong>.</span>
+                                <span
+                                    class="lang-zh">从东北石油大学毕业，荣获<strong>优秀毕业生</strong>，毕业设计获评<strong>优秀毕业设计</strong>。两篇机器人领域论文（<em>MicroVLA</em>
+                                    与 <em>MG-VTLA</em>）被机器人领域顶级会议 <strong>IROS 2026</strong> 接收录用。</span>
                             </div>
                         </li>
                         <li class="timeline-item">
                             <span class="timeline-date">2026.04</span>
                             <div class="timeline-content">
-                                <span class="lang-en">Paper <em>"Machine Vision Based Surface Defect Detection Method for PCBs..."</em> accepted at <strong>Chinese Control Conference (CCC 2026)</strong>.</span>
-                                <span class="lang-zh">论文《Machine Vision Based Surface Defect Detection Method for PCBs in Industrial Production》被<strong>中国控制会议 (CCC 2026)</strong>录用，为第一作者。</span>
+                                <span class="lang-en">Paper <em>"Machine Vision Based Surface Defect Detection Method
+                                        for PCBs..."</em> accepted at <strong>Chinese Control Conference (CCC
+                                        2026)</strong>.</span>
+                                <span class="lang-zh">论文《Machine Vision Based Surface Defect Detection Method for PCBs
+                                    in Industrial Production》被<strong>中国控制会议 (CCC 2026)</strong>录用，为第一作者。</span>
                             </div>
                         </li>
                         <li class="timeline-item">
                             <span class="timeline-date">2026.03</span>
                             <div class="timeline-content">
-                                <span class="lang-en">Completed my Research Internship at the Intelligent Manufacturing and Precision Machining Lab, Tsinghua University. Worked on the <strong>MicroVLA</strong> and <strong>MG-VTLA</strong> frameworks.</span>
-                                <span class="lang-zh">圆满结束在清华大学智能制造与精密加工实验室的科研实习。参与研发了 <strong>MicroVLA</strong> 和 <strong>MG-VTLA</strong> 机器人导航及微操控框架。</span>
+                                <span class="lang-en">Completed my Research Internship at the Intelligent Manufacturing
+                                    and Precision Machining Lab, Tsinghua University. Worked on the
+                                    <strong>MicroVLA</strong> and <strong>MG-VTLA</strong> frameworks.</span>
+                                <span class="lang-zh">圆满结束在清华大学智能制造与精密加工实验室的科研实习。参与研发了 <strong>MicroVLA</strong> 和
+                                    <strong>MG-VTLA</strong> 机器人导航及微操控框架。</span>
                             </div>
                         </li>
                         <li class="timeline-item">
                             <span class="timeline-date">2026.02</span>
                             <div class="timeline-content">
-                                <span class="lang-en">Paper on <em>MicroVLA</em> submitted to <strong>IEEE/RSJ IROS 2026</strong>. Co-first author.</span>
-                                <span class="lang-zh">以共同第一作者身份撰写的论文《MicroVLA: A Vision-Language-Action Framework for Microrobotic Navigation...》投稿至机器人领域顶级会议 <strong>IROS 2026</strong>，目前在审。</span>
+                                <span class="lang-en">Paper on <em>MicroVLA</em> submitted to <strong>IEEE/RSJ IROS
+                                        2026</strong>. Co-first author. <span class="badge badge-green"
+                                        style="font-size:0.65rem;vertical-align:middle;margin-left:4px">Accepted Jun
+                                        2026</span></span>
+                                <span class="lang-zh">以共同第一作者身份撰写的论文《MicroVLA: A Vision-Language-Action Framework for
+                                    Microrobotic Navigation...》投稿至机器人领域顶级会议 <strong>IROS 2026</strong>。<span
+                                        class="badge badge-green"
+                                        style="font-size:0.65rem;vertical-align:middle;margin-left:4px">已于2026年6月录用</span></span>
                             </div>
                         </li>
                     </ul>
@@ -236,8 +300,11 @@
                             <span class="lang-zh">微纳具身智能 (VLA)</span>
                         </h3>
                         <p class="research-desc">
-                            <span class="lang-en">Integrating Vision-Language-Action (VLA) models into micro-particle manipulation, introducing physical and force-field constraints to improve robotic micro-assembly success rates.</span>
-                            <span class="lang-zh">将视觉-语言-动作 (VLA) 模型引入微米级粒子操控，解决微观力场下的粘附与碰撞问题，实现高精度、物理感知的微纳机器人自主导航与操控。</span>
+                            <span class="lang-en">Integrating Vision-Language-Action (VLA) models into micro-particle
+                                manipulation, introducing physical and force-field constraints to improve robotic
+                                micro-assembly success rates.</span>
+                            <span class="lang-zh">将视觉-语言-动作 (VLA)
+                                模型引入微米级粒子操控，解决微观力场下的粘附与碰撞问题，实现高精度、物理感知的微纳机器人自主导航与操控。</span>
                         </p>
                     </div>
                     <div class="research-item card">
@@ -249,8 +316,11 @@
                             <span class="lang-zh">云边协同物联网与视觉</span>
                         </h3>
                         <p class="research-desc">
-                            <span class="lang-en">Developing lightweight real-time object detection models (YOLO & DETR series) for edge terminals (Jetson Nano) and larger model architectures for cloud deployment.</span>
-                            <span class="lang-zh">设计面向边缘终端（如 Jetson Nano、国产 OpenHarmony 芯片）的轻量化实时目标检测模型，与云端大算力 DETR 模型协同，实现智能工业缺陷检测。</span>
+                            <span class="lang-en">Developing lightweight real-time object detection models (YOLO & DETR
+                                series) for edge terminals (Jetson Nano) and larger model architectures for cloud
+                                deployment.</span>
+                            <span class="lang-zh">设计面向边缘终端（如 Jetson Nano、国产 OpenHarmony 芯片）的轻量化实时目标检测模型，与云端大算力 DETR
+                                模型协同，实现智能工业缺陷检测。</span>
                         </p>
                     </div>
                 </div>
@@ -262,72 +332,100 @@
                     <span class="lang-en">Selected Publications</span>
                     <span class="lang-zh">学术成果</span>
                 </h2>
-                
+
                 <div class="publications-list">
                     <!-- Publication 1: MicroVLA -->
-                    <div class="pub-card card">
-                        <div class="pub-badges">
-                            <span class="badge badge-purple"><span class="lang-en">Co-First Author</span><span class="lang-zh">共同第一作者</span></span>
-                            <span class="badge badge-blue"><span class="lang-en">Under Review (IROS)</span><span class="lang-zh">在审 (IROS 2026)</span></span>
+                    <div class="pub-card card pub-accent-green">
+                        <div class="pub-header">
+                            <span class="pub-number">[1]</span>
+                            <div class="pub-badges">
+                                <span class="badge badge-purple"><span class="lang-en">Co-First Author</span><span
+                                        class="lang-zh">共同第一作者</span></span>
+                                <span class="badge badge-green"><span class="lang-en">Accepted (IROS 2026)</span><span
+                                        class="lang-zh">已录用 (IROS 2026)</span></span>
+                            </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">MicroVLA: A Vision-Language-Action Framework for Microrobotic Navigation Considering Inter-Particle Micro-Force Fields</span>
+                            <span class="lang-en">MicroVLA: A Vision-Language-Action Framework for Microrobotic
+                                Navigation Considering Inter-Particle Micro-Force Fields</span>
                             <span class="lang-zh">MicroVLA: 考虑粒子间微观力场的微型机器人导航视觉-语言-动作框架</span>
                         </h3>
                         <p class="pub-authors">
-                            Haohan Min*, Zexin Song*, <strong>Zhetong Zhang*</strong>, Rui Tang, Hengchang Zhang, Haoyuan Xue, Jie Xu, Feng Feng<sup>#</sup> and Pingfa Feng.
+                            Haohan Min*, Zexin Song*, <strong>Zhetong Zhang*</strong>, Rui Tang, Hengchang Zhang,
+                            Haoyuan Xue, Jie Xu, Feng Feng<sup>#</sup> and Pingfa Feng.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026. (Under Review, Top Robotics Conference)</span>
-                            <span class="lang-zh">IEEE/RSJ 国际智能机器人与系统大会 (IROS), 2026. (在审, 机器人顶会)</span>
+                            <span class="lang-en">IEEE/RSJ International Conference on Intelligent Robots and Systems
+                                (IROS), 2026. (Accepted, Top Robotics Conference)</span>
+                            <span class="lang-zh">IEEE/RSJ 国际智能机器人与系统大会 (IROS), 2026. (已录用, 机器人顶会)</span>
                         </p>
                     </div>
 
                     <!-- Publication 2: LR-DETR -->
-                    <div class="pub-card card">
-                        <div class="pub-badges">
-                            <span class="badge badge-purple"><span class="lang-en">First Author</span><span class="lang-zh">第一作者</span></span>
-                            <span class="badge badge-blue"><span class="lang-en">Under Review</span><span class="lang-zh">在审</span></span>
+                    <div class="pub-card card pub-accent-blue">
+                        <div class="pub-header">
+                            <span class="pub-number">[2]</span>
+                            <div class="pub-badges">
+                                <span class="badge badge-purple"><span class="lang-en">First Author</span><span
+                                        class="lang-zh">第一作者</span></span>
+                                <span class="badge badge-blue"><span class="lang-en">Under Review</span><span
+                                        class="lang-zh">在审</span></span>
+                            </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">LR-DETR: Ultra-Small Object Detection Model with Affine Calibration and High-Resolution Fusion Downsampling</span>
+                            <span class="lang-en">LR-DETR: Ultra-Small Object Detection Model with Affine Calibration
+                                and High-Resolution Fusion Downsampling</span>
                             <span class="lang-zh">LR-DETR: 结合仿射校正与高分辨率融合下采样的超小目标检测模型</span>
                         </h3>
                         <p class="pub-authors">
                             <strong>Zhetong Zhang</strong>, Xinyue Zhang*, Xintao Wang.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">Journal of Real-Time Image Processing (JRTIP). (Under Review, JCR Q2, IF = 3.0)</span>
-                            <span class="lang-zh">Journal of Real-Time Image Processing (JRTIP) 期刊. (在审, JCR Q2区, 影响因子3.0)</span>
+                            <span class="lang-en">Journal of Real-Time Image Processing (JRTIP). (Under Review, JCR Q2,
+                                IF = 3.0)</span>
+                            <span class="lang-zh">Journal of Real-Time Image Processing (JRTIP) 期刊. (在审, JCR Q2区,
+                                影响因子3.0)</span>
                         </p>
                     </div>
 
                     <!-- Publication 3: CCC PCB Defect -->
-                    <div class="pub-card card">
-                        <div class="pub-badges">
-                            <span class="badge badge-purple"><span class="lang-en">First Author</span><span class="lang-zh">第一作者</span></span>
-                            <span class="badge badge-green"><span class="lang-en">Accepted</span><span class="lang-zh">已录用</span></span>
-                            <span class="badge badge-orange">CAA-A</span>
+                    <div class="pub-card card pub-accent-green">
+                        <div class="pub-header">
+                            <span class="pub-number">[3]</span>
+                            <div class="pub-badges">
+                                <span class="badge badge-purple"><span class="lang-en">First Author</span><span
+                                        class="lang-zh">第一作者</span></span>
+                                <span class="badge badge-green"><span class="lang-en">Accepted</span><span
+                                        class="lang-zh">已录用</span></span>
+                                <span class="badge badge-orange">CAA-A</span>
+                            </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">Machine Vision Based Surface Defect Detection Method for PCBs in Industrial Production</span>
+                            <span class="lang-en">Machine Vision Based Surface Defect Detection Method for PCBs in
+                                Industrial Production</span>
                             <span class="lang-zh">基于机器视觉的工业生产中 PCB 表面缺陷检测方法</span>
                         </h3>
                         <p class="pub-authors">
                             <strong>Zhetong Zhang</strong>, Xinyue Zhang*.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">2026 45th Chinese Control Conference (CCC). IEEE, 2026. (Accepted, EI, CAA Class A Recommended Conference)</span>
-                            <span class="lang-zh">第45届中国控制会议 (CCC 2026). IEEE, 2026. (已录用, EI检索, 中国自动化学会CAA推荐A类会议)</span>
+                            <span class="lang-en">2026 45th Chinese Control Conference (CCC). IEEE, 2026. (Accepted, EI,
+                                CAA Class A Recommended Conference)</span>
+                            <span class="lang-zh">第45届中国控制会议 (CCC 2026). IEEE, 2026. (已录用, EI检索,
+                                中国自动化学会CAA推荐A类会议)</span>
                         </p>
                     </div>
 
                     <!-- Publication 4: DDCLS YOLO -->
-                    <div class="pub-card card">
-                        <div class="pub-badges">
-                            <span class="badge badge-purple"><span class="lang-en">First Author</span><span class="lang-zh">第一作者</span></span>
-                            <span class="badge badge-green">Published</span>
-                            <span class="badge badge-orange">CAA-A</span>
+                    <div class="pub-card card pub-accent-green">
+                        <div class="pub-header">
+                            <span class="pub-number">[4]</span>
+                            <div class="pub-badges">
+                                <span class="badge badge-purple"><span class="lang-en">First Author</span><span
+                                        class="lang-zh">第一作者</span></span>
+                                <span class="badge badge-green">Published</span>
+                                <span class="badge badge-orange">CAA-A</span>
+                            </div>
                         </div>
                         <h3 class="pub-title">
                             <span class="lang-en">PCB detection algorithm based on improved YOLO11n</span>
@@ -337,55 +435,65 @@
                             <strong>Zhetong Zhang*</strong>.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">2025 IEEE 14th Data Driven Control and Learning Systems (DDCLS). IEEE, 2025: 972-977. (Published, EI, CAA Class A Recommended Conference)</span>
-                            <span class="lang-zh">第14届数据驱动控制与学习系统会议 (DDCLS 2025). IEEE, 2025: 972-977. (已发表, EI检索, 中国自动化学会CAA推荐A类会议)</span>
+                            <span class="lang-en">2025 IEEE 14th Data Driven Control and Learning Systems (DDCLS). IEEE,
+                                2025: 972-977. (Published, EI, CAA Class A Recommended Conference)</span>
+                            <span class="lang-zh">第14届数据驱动控制与学习系统会议 (DDCLS 2025). IEEE, 2025: 972-977. (已发表, EI检索,
+                                中国自动化学会CAA推荐A类会议)</span>
                         </p>
+                        <a href="https://doi.org/10.1109/DDCLS64564.2025" target="_blank" rel="noopener"
+                            class="pub-doi-link">
+                            <i data-lucide="external-link" style="width:12px;height:12px;"></i>
+                            <span class="lang-en">IEEE Xplore</span>
+                            <span class="lang-zh">查看论文</span>
+                        </a>
                     </div>
 
                     <!-- Publication 5: Hydrocarbon Detection -->
-                    <div class="pub-card card">
-                        <div class="pub-info">
+                    <div class="pub-card card pub-accent-green">
+                        <div class="pub-header">
+                            <span class="pub-number">[5]</span>
                             <div class="pub-badges">
                                 <span class="badge badge-green">Published</span>
                             </div>
-                            <h3 class="pub-title">
-                                <span class="lang-en">Hydrocarbon detection method based on fractional adaptive superlet transform</span>
-                                <span class="lang-zh">基于分数阶自适应 Superlet 变换的油气检测方法</span>
-                            </h3>
-                            <p class="pub-authors">
-                                Xintao Wang, Siyuan Chen, Jiawen Fu, <strong>Zhetong Zhang</strong>, Shuwen Guo.
-                            </p>
-                            <p class="pub-venue">
-                                <span class="lang-en">Journal of Geophysical Prospecting, 2(1), 2026: 77-87. (Published, EI-JA)</span>
-                                <span class="lang-zh">Journal of Geophysical Prospecting 期刊, 2(1), 2026: 77-87. (已发表, EI期刊)</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Additional papers (Under Review) -->
-                    <div class="pub-card card secondary-pub">
-                        <div class="pub-badges">
-                            <span class="badge badge-blue"><span class="lang-en">Under Review (IROS)</span><span class="lang-zh">在审 (IROS 2026)</span></span>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">MG-VTLA: A Vision–Tactile–Language–Action Framework for Contact-Robust Robotic Micro-Grasping</span>
-                            <span class="lang-zh">MG-VTLA: 用于鲁棒接触机器人微抓取的视觉-触觉-语言-动作框架</span>
+                            <span class="lang-en">Hydrocarbon detection method based on fractional adaptive superlet
+                                transform</span>
+                            <span class="lang-zh">基于分数阶自适应 Superlet 变换的油气检测方法</span>
                         </h3>
                         <p class="pub-authors">
-                            Xu Jie, Haohan Min, Hengchang Zhang, <strong>Zhetong Zhang</strong>, Song Zexin, Rui Tang, Lv Jingwei, Haoyuan Xue, Feng Feng<sup>#</sup>, Pingfa Feng.
+                            Xintao Wang, Siyuan Chen, Jiawen Fu, <strong>Zhetong Zhang</strong>, Shuwen Guo.
+                        </p>
+                        <p class="pub-venue">
+                            <span class="lang-en">Journal of Geophysical Prospecting, 2(1), 2026: 77-87. (Published,
+                                EI-JA)</span>
+                            <span class="lang-zh">Journal of Geophysical Prospecting 期刊, 2(1), 2026: 77-87. (已发表,
+                                EI期刊)</span>
                         </p>
                     </div>
 
-                    <div class="pub-card card secondary-pub">
-                        <div class="pub-badges">
-                            <span class="badge badge-blue"><span class="lang-en">Under Review (IROS)</span><span class="lang-zh">在审 (IROS 2026)</span></span>
+                    <!-- Publication 6: MG-VTLA -->
+                    <div class="pub-card card pub-accent-green">
+                        <div class="pub-header">
+                            <span class="pub-number">[6]</span>
+                            <div class="pub-badges">
+                                <span class="badge badge-green"><span class="lang-en">Accepted (IROS 2026)</span><span
+                                        class="lang-zh">已录用 (IROS 2026)</span></span>
+                            </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">MicroNav-RL: A Reinforcement Learning-Based Simulation Framework for Microrobotic Micro-Particle Navigation</span>
-                            <span class="lang-zh">MicroNav-RL: 基于强化学习的微纳机器人微粒子导航仿真框架</span>
+                            <span class="lang-en">MG-VTLA: A Vision–Tactile–Language–Action Framework for Contact-Robust
+                                Robotic Micro-Grasping</span>
+                            <span class="lang-zh">MG-VTLA: 用于鲁棒接触机器人微抓取的视觉-触觉-语言-动作框架</span>
                         </h3>
                         <p class="pub-authors">
-                            Xu Jie, Haohan Min, Rui Tang, Hengchang Zhang, Song Zexin, <strong>Zhetong Zhang</strong>, Haoyuan Xue, Feng Feng<sup>#</sup>, Pingfa Feng.
+                            Xu Jie, Haohan Min, Hengchang Zhang, <strong>Zhetong Zhang</strong>, Song Zexin, Rui Tang,
+                            Lv Jingwei, Haoyuan Xue, Feng Feng<sup>#</sup>, Pingfa Feng.
+                        </p>
+                        <p class="pub-venue">
+                            <span class="lang-en">IEEE/RSJ International Conference on Intelligent Robots and Systems
+                                (IROS), 2026. (Accepted, June 2026, Top Robotics Conference)</span>
+                            <span class="lang-zh">IEEE/RSJ 国际智能机器人与系统大会 (IROS), 2026. (已录用, 2026年6月, 机器人顶会)</span>
                         </p>
                     </div>
                 </div>
@@ -406,92 +514,177 @@
                         </h3>
                         <div class="project-meta">
                             <span class="project-duration">2023.05 - 2026.02</span>
-                            <span class="badge badge-orange"><span class="lang-en">Project Leader</span><span class="lang-zh">项目负责人</span></span>
-                            <span class="badge badge-green"><span class="lang-en">Outstanding Graduation Design</span><span class="lang-zh">优秀毕业设计</span></span>
+                            <span class="badge badge-orange"><span class="lang-en">Project Leader</span><span
+                                    class="lang-zh">项目负责人</span></span>
+                            <span class="badge badge-green"><span class="lang-en">Outstanding Graduation
+                                    Design</span><span class="lang-zh">优秀毕业设计</span></span>
                         </div>
                         <p class="project-desc">
-                            <span class="lang-en">Developed a full cloud-edge IoT platform for industrial PCB defect detection. Developed YOLO-OLC for real-time edge devices (Jetson Nano, 552 FPS) and LF-DETR for high-accuracy cloud computing (Tesla T4, 99.32% AP50). Utilized HiSilicon Hi3861 platform running OpenHarmony for standardized edge-side messaging.</span>
-                            <span class="lang-zh">面向工业PCB自动化生产，设计了端侧搭载国产化 OpenHarmony 物联系统与边缘算力卡 YOLO-OLC 算法（Jetson Nano，552 FPS），以及云端大算力 LF-DETR 检测算法（Tesla T4，99.32% AP50）的云边协同缺陷检测平台。</span>
+                            <span class="lang-en">Developed a full cloud-edge IoT platform for industrial PCB defect
+                                detection. Developed YOLO-OLC for real-time edge devices (Jetson Nano, 552 FPS) and
+                                LF-DETR for high-accuracy cloud computing (Tesla T4, 99.32% AP50). Utilized HiSilicon
+                                Hi3861 platform running OpenHarmony for standardized edge-side messaging.</span>
+                            <span class="lang-zh">面向工业PCB自动化生产，设计了端侧搭载国产化 OpenHarmony 物联系统与边缘算力卡 YOLO-OLC 算法（Jetson
+                                Nano，552 FPS），以及云端大算力 LF-DETR 检测算法（Tesla T4，99.32% AP50）的云边协同缺陷检测平台。</span>
                         </p>
                         <div class="project-outcomes">
                             <strong><span class="lang-en">Outcomes:</span><span class="lang-zh">项目成果：</span></strong>
                             <ul>
                                 <li>
-                                    <span class="lang-en">Supported by Heilongjiang Provincial College Student Innovation Project (as leader).</span>
+                                    <span class="lang-en">Supported by Heilongjiang Provincial College Student
+                                        Innovation Project (as leader).</span>
                                     <span class="lang-zh">主持获批黑龙江省大学生创新训练计划项目（省级立项）。</span>
                                 </li>
                                 <li>
-                                    <span class="lang-en">Granted 1 Software Copyright (1st author) & 1 Patent (1st inventor).</span>
+                                    <span class="lang-en">Granted 1 Software Copyright (1st author) & 1 Patent (1st
+                                        inventor).</span>
                                     <span class="lang-zh">获批软件著作权1项（第一著作权人），申请专利1项（第一发明人）。</span>
                                 </li>
                             </ul>
                         </div>
-                        
+
+                        <!-- Video/GIF Demonstration -->
+                        <div class="project-demo">
+                            <div class="demo-title">
+                                <i data-lucide="video" class="inline-icon"></i>
+                                <span class="lang-en">Demonstration: Edge-Cloud Real-time Defect Scanning</span>
+                                <span class="lang-zh">演示视频：云边协同实时缺陷扫描检测</span>
+                            </div>
+                            <div class="demo-screen media-screen">
+                                <video autoplay loop muted playsinline class="demo-video">
+                                    <source src="assets/pcb_demo.mp4" type="video/mp4">
+                                    <img src="assets/paper_figure_mockup.png" alt="PCB Defect Scanning Demo">
+                                </video>
+                                <span class="media-type-badge">MP4 / GIF</span>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Project 2: MicroVLA -->
                     <div class="project-card card">
                         <h3 class="project-title">
-                            <span class="lang-en">Vision-Language-Action (VLA) Framework for Microrobot Navigation</span>
+                            <span class="lang-en">Vision-Language-Action (VLA) Framework for Microrobot
+                                Navigation</span>
                             <span class="lang-zh">微观机器人导航的视觉-语言-动作（VLA）框架</span>
                         </h3>
                         <div class="project-meta">
                             <span class="project-duration">2026.01 - 2026.03</span>
-                            <span class="badge badge-purple"><span class="lang-en">Core Intern Researcher</span><span class="lang-zh">核心实习科研成员</span></span>
+                            <span class="badge badge-purple"><span class="lang-en">Core Intern Researcher</span><span
+                                    class="lang-zh">清华大学科研实习</span></span>
                         </div>
                         <p class="project-desc">
-                            <span class="lang-en">Introduced the first physically aware VLA framework (MicroVLA) for micrometer-scale particle manipulation. Designed the Implicit Micro-Force Field Learning (IMFFL) mechanism, integrating contact mechanics to build a risk calculation model and risk maps, enabling microrobots to autonomously recognize and avoid high-adhesion danger zones.</span>
-                            <span class="lang-zh">将具身智能 VLA 引入微纳粒子操控。创新设计了隐式微力场学习（IMFFL）核心机制，结合接触力学理论构建微力场风险计算模型，生成语义分割环境风险图，实现对高粘附和微力矩风险区域的自适应规避。</span>
+                            <span class="lang-en">Introduced the first physically aware VLA framework (MicroVLA) for
+                                micrometer-scale particle manipulation. Designed the Implicit Micro-Force Field Learning
+                                (IMFFL) mechanism, integrating contact mechanics to build a risk calculation model and
+                                risk maps, enabling microrobots to autonomously recognize and avoid high-adhesion danger
+                                zones.</span>
+                            <span class="lang-zh">将具身智能 VLA
+                                引入微纳粒子操控。创新设计了隐式微力场学习（IMFFL）核心机制，结合接触力学理论构建微力场风险计算模型，生成语义分割环境风险图，实现对高粘附和微力矩风险区域的
+                                自适应规避。</span>
                         </p>
                         <div class="project-outcomes">
                             <strong><span class="lang-en">Outcomes:</span><span class="lang-zh">项目成果：</span></strong>
                             <ul>
                                 <li>
-                                    <span class="lang-en">Conducted at Tsinghua University (Intelligent Manufacturing Lab).</span>
-                                    <span class="lang-zh">于清华大学智能制造实验室实习期间完成。</span>
-                                </li>
-                                <li>
-                                    <span class="lang-en">Resulted in a co-first author paper submitted to IROS 2026 (under review).</span>
-                                    <span class="lang-zh">成果产出机器人顶会 IROS 2026 共同第一作者论文（在审）。</span>
+                                    <span class="lang-en">Resulted in a co-first author paper accepted at IROS 2026
+                                        (June 2026).</span>
+                                    <span class="lang-zh">成果产出机器人顶会 IROS 2026 共同第一作者论文（已录用，2026年6月）。</span>
                                 </li>
                             </ul>
                         </div>
-                        
+
+                        <!-- GIF Demonstration Gallery -->
+                        <div class="project-demo">
+                            <div class="demo-title">
+                                <i data-lucide="play-circle" class="inline-icon"></i>
+                                <span class="lang-en">Demonstration: MicroVLA Navigation & Micro-Manipulation</span>
+                                <span class="lang-zh">演示：MicroVLA微观粒子移动导航</span>
+                            </div>
+                            <div class="vla-gif-grid">
+                                <div class="vla-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <img src="assets/microvla_demo_1.webp" alt="MicroVLA Demo 1" loading="lazy">
+                                    </div>
+                                    <span class="vla-gif-label">
+                                        <span class="lang-en">Navigation Path</span>
+                                        <span class="lang-zh">具身微粒运输</span>
+                                    </span>
+                                </div>
+                                <div class="vla-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <img src="assets/microvla_demo_2.webp" alt="MicroVLA Demo 2" loading="lazy">
+                                    </div>
+                                    <span class="vla-gif-label">
+                                        <span class="lang-en">Risk Field Map</span>
+                                        <span class="lang-zh">隐式学习避障</span>
+                                    </span>
+                                </div>
+                                <div class="vla-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <img src="assets/microvla_demo_3.webp" alt="MicroVLA Demo 3" loading="lazy">
+                                    </div>
+                                    <span class="vla-gif-label">
+                                        <span class="lang-en">Particle Avoidance</span>
+                                        <span class="lang-zh">机器人平台</span>
+                                    </span>
+                                </div>
+                                <div class="vla-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <img src="assets/microvla_demo_4.webp" alt="MicroVLA Demo 4" loading="lazy">
+                                    </div>
+                                    <span class="vla-gif-label">
+                                        <span class="lang-en">Assembly Result</span>
+                                        <span class="lang-zh">具身微粒导航</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
 
                     <!-- Project 3: Wave Observation System -->
                     <div class="project-card card">
                         <h3 class="project-title">
-                            <span class="lang-en">Wave Parameter Observation System Based on Wave Field Reconstruction</span>
+                            <span class="lang-en">Wave Parameter Observation System Based on Wave Field
+                                Reconstruction</span>
                             <span class="lang-zh">基于波浪场重构的波浪参数观测系统</span>
                         </h3>
                         <div class="project-meta">
                             <span class="project-duration">2024.03 - 2025.08</span>
-                            <span class="badge badge-purple"><span class="lang-en">Core Algorithm Designer</span><span class="lang-zh">核心算法设计人</span></span>
-                            <span class="badge badge-orange"><span class="lang-en">National Bronze Award</span><span class="lang-zh">国家级铜奖</span></span>
+                            <span class="badge badge-purple"><span class="lang-en">Core Algorithm Designer</span><span
+                                    class="lang-zh">核心算法设计人</span></span>
+                            <span class="badge badge-orange"><span class="lang-en">National Bronze Award</span><span
+                                    class="lang-zh">国家级铜奖</span></span>
                         </div>
                         <p class="project-desc">
-                            <span class="lang-en">This project uses binocular vision to achieve wave image matching, parameter inversion, 3D reconstruction, and short-term prediction. Motion compensation, algorithmic compensation, and three-axis gimbal compensation are integrated to improve measurement stability.</span>
+                            <span class="lang-en">This project uses binocular vision to achieve wave image matching,
+                                parameter inversion, 3D reconstruction, and short-term prediction. Motion compensation,
+                                algorithmic compensation, and three-axis gimbal compensation are integrated to improve
+                                measurement stability.</span>
                             <span class="lang-zh">本项目采用双目视觉实现波浪图像匹配、参数反演、三维重构和短期预测。融合运动补偿、算法补偿与三轴云台物理补偿以提高测量稳定性。</span>
                         </p>
                         <div class="project-outcomes">
                             <strong><span class="lang-en">Outcomes:</span><span class="lang-zh">项目成果：</span></strong>
                             <ul>
                                 <li>
-                                    <span class="lang-en">Awarded National Bronze Prize in the China International College Students Innovation Competition.</span>
+                                    <span class="lang-en">Awarded National Bronze Prize in the China International
+                                        College Students Innovation Competition.</span>
                                     <span class="lang-zh">荣获中国国际大学生创新大赛（原互联网+）国家级铜奖。</span>
                                 </li>
                                 <li>
-                                    <span class="lang-en">Responsible for core algorithm design (multimodal vision sensing, wave feature extraction).</span>
+                                    <span class="lang-en">Responsible for core algorithm design (multimodal vision
+                                        sensing, wave feature extraction).</span>
                                     <span class="lang-zh">负责核心算法设计（多模态视觉感知、波浪特征提取）。</span>
                                 </li>
                                 <li>
-                                    <span class="lang-en">Achieved overall accuracy of 87%; wave height accuracy of ±(0.1 + 3% * measured value) m, wave direction range 0-360° with accuracy ±3°.</span>
+                                    <span class="lang-en">Achieved overall accuracy of 87%; wave height accuracy of
+                                        ±(0.1 + 3% * measured value) m, wave direction range 0-360° with accuracy
+                                        ±3°.</span>
                                     <span class="lang-zh">系统整体测量精度达到 87%；波高精度达 ±(0.1 + 3% * 测量值) m，波向精度达 ±3°。</span>
                                 </li>
                             </ul>
                         </div>
-                        
                     </div>
                 </div>
             </section>
@@ -508,10 +701,14 @@
                         <div class="patent-icon"><i data-lucide="award"></i></div>
                         <div class="patent-info">
                             <h4>
-                                <span class="lang-en">PCB Defect Detection Platform Based on Visual Recognition (Utility Model Patent)</span>
+                                <span class="lang-en">PCB Defect Detection Platform Based on Visual Recognition (Utility
+                                    Model Patent)</span>
                                 <span class="lang-zh">基于视觉识别的PCB板缺陷检测平台（实用新型专利）</span>
                             </h4>
-                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span class="lang-en">1st Inventor</span><span class="lang-zh">第一发明人</span> | <strong>ID:</strong> 2025200779334</p>
+                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span
+                                    class="lang-en">1st Inventor</span><span class="lang-zh">第一发明人</span> |
+                                <strong>ID:</strong> 2025200779334
+                            </p>
                         </div>
                     </div>
                     <!-- Patent 2 -->
@@ -519,10 +716,14 @@
                         <div class="patent-icon"><i data-lucide="award"></i></div>
                         <div class="patent-info">
                             <h4>
-                                <span class="lang-en">A Data Analysis Device for Tight Sandstone Reservoirs (Utility Model Patent)</span>
+                                <span class="lang-en">A Data Analysis Device for Tight Sandstone Reservoirs (Utility
+                                    Model Patent)</span>
                                 <span class="lang-zh">一种致密砂岩储层用的数据分析装置（实用新型专利）</span>
                             </h4>
-                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span class="lang-en">2nd Inventor</span><span class="lang-zh">第二发明人</span> | <strong>ID:</strong> ZL202422774355.8</p>
+                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span
+                                    class="lang-en">2nd Inventor</span><span class="lang-zh">第二发明人</span> |
+                                <strong>ID:</strong> ZL202422774355.8
+                            </p>
                         </div>
                     </div>
                     <!-- Patent 3 -->
@@ -530,10 +731,14 @@
                         <div class="patent-icon"><i data-lucide="award"></i></div>
                         <div class="patent-info">
                             <h4>
-                                <span class="lang-en">A Dual-mode Wave Energy Vibration Power Generation Device (Invention Patent)</span>
+                                <span class="lang-en">A Dual-mode Wave Energy Vibration Power Generation Device
+                                    (Invention Patent)</span>
                                 <span class="lang-zh">一种双模式波浪能振动发电装置（国家发明专利）</span>
                             </h4>
-                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span class="lang-en">3rd Inventor</span><span class="lang-zh">第三发明人</span> | <strong>ID:</strong> CN202510758218.1</p>
+                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span
+                                    class="lang-en">3rd Inventor</span><span class="lang-zh">第三发明人</span> |
+                                <strong>ID:</strong> CN202510758218.1
+                            </p>
                         </div>
                     </div>
                     <!-- Soft 1 -->
@@ -541,10 +746,14 @@
                         <div class="patent-icon"><i data-lucide="binary"></i></div>
                         <div class="patent-info">
                             <h4>
-                                <span class="lang-en">Intelligent Interaction System for Industrial IoT Data Terminal (Software Copyright)</span>
+                                <span class="lang-en">Intelligent Interaction System for Industrial IoT Data Terminal
+                                    (Software Copyright)</span>
                                 <span class="lang-zh">工业物联网数据终端智能交互系统（软件著作权）</span>
                             </h4>
-                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span class="lang-en">1st Copyright Owner</span><span class="lang-zh">第一著作权人</span> | <strong>ID:</strong> 2023SR1581621</p>
+                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span
+                                    class="lang-en">1st Copyright Owner</span><span class="lang-zh">第一著作权人</span> |
+                                <strong>ID:</strong> 2023SR1581621
+                            </p>
                         </div>
                     </div>
                     <!-- Soft 2 -->
@@ -552,10 +761,14 @@
                         <div class="patent-icon"><i data-lucide="binary"></i></div>
                         <div class="patent-info">
                             <h4>
-                                <span class="lang-en">Qianhang Yuntong Intelligent Educational Administration Management System (Software Copyright)</span>
+                                <span class="lang-en">Qianhang Yuntong Intelligent Educational Administration Management
+                                    System (Software Copyright)</span>
                                 <span class="lang-zh">“千航云通”智能教务管理系统（软件著作权）</span>
                             </h4>
-                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span class="lang-en">2nd Copyright Owner</span><span class="lang-zh">第二著作权人</span> | <strong>ID:</strong> 2023SR0995788</p>
+                            <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span
+                                    class="lang-en">2nd Copyright Owner</span><span class="lang-zh">第二著作权人</span> |
+                                <strong>ID:</strong> 2023SR0995788
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -567,7 +780,7 @@
                     <span class="lang-en">Honors & Competitions</span>
                     <span class="lang-zh">荣誉与学科竞赛</span>
                 </h2>
-                
+
                 <div class="awards-container card">
                     <div class="awards-subsection">
                         <h3>
@@ -577,19 +790,25 @@
                         </h3>
                         <ul class="awards-list">
                             <li>
-                                <span class="award-name"><span class="lang-en">Outstanding Student Scholarships</span><span class="lang-zh">优秀学生奖学金</span></span>
-                                <span class="award-level"><span class="lang-en">3 Awards</span><span class="lang-zh">3项</span></span>
+                                <span class="award-name"><span class="lang-en">Outstanding Student
+                                        Scholarships</span><span class="lang-zh">优秀学生奖学金</span></span>
+                                <span class="award-level"><span class="lang-en">3 Awards</span><span
+                                        class="lang-zh">3项</span></span>
                             </li>
                             <li>
-                                <span class="award-name"><span class="lang-en">Science and Technology Competition Scholarships</span><span class="lang-zh">科技竞赛专项奖学金</span></span>
-                                <span class="award-level"><span class="lang-en">Multiple Awards</span><span class="lang-zh">多项</span></span>
+                                <span class="award-name"><span class="lang-en">Science and Technology Competition
+                                        Scholarships</span><span class="lang-zh">科技竞赛专项奖学金</span></span>
+                                <span class="award-level"><span class="lang-en">Multiple Awards</span><span
+                                        class="lang-zh">多项</span></span>
                             </li>
                             <li>
-                                <span class="award-name"><span class="lang-en">Northeast Petroleum University Outstanding Graduate</span><span class="lang-zh">东北石油大学优秀毕业生</span></span>
+                                <span class="award-name"><span class="lang-en">Northeast Petroleum University
+                                        Outstanding Graduate</span><span class="lang-zh">东北石油大学优秀毕业生</span></span>
                                 <span class="award-level">2026</span>
                             </li>
                             <li>
-                                <span class="award-name"><span class="lang-en">Exemplary Student Organization Leader</span><span class="lang-zh">优秀社团干部标兵 / 优秀社团干部</span></span>
+                                <span class="award-name"><span class="lang-en">Exemplary Student Organization
+                                        Leader</span><span class="lang-zh">优秀社团干部标兵 / 优秀社团干部</span></span>
                                 <span class="award-level">2024 - 2025</span>
                             </li>
                         </ul>
@@ -604,54 +823,149 @@
                         <ul class="competition-list">
                             <li>
                                 <span class="comp-date">2023.08</span>
-                                <span class="comp-name"><span class="lang-en">National Undergraduate Electronic Design Contest (NUEDC)</span><span class="lang-zh">全国大学生电子设计竞赛 (电赛)</span></span>
-                                <span class="comp-prize badge badge-orange"><span class="lang-en">National 2nd Prize</span><span class="lang-zh">国家二等奖</span></span>
+                                <span class="comp-name"><span class="lang-en">National Undergraduate Electronic Design
+                                        Contest (NUEDC)</span><span class="lang-zh">全国大学生电子设计竞赛 (电赛)</span></span>
+                                <span class="comp-prize badge badge-orange"><span class="lang-en">National 2nd
+                                        Prize</span><span class="lang-zh">国家二等奖</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2025.08</span>
-                                <span class="comp-name"><span class="lang-en">China TRIZ Cup Undergraduate Innovation Method Competition</span><span class="lang-zh">中国TRIZ杯大学生创新方法大赛</span></span>
-                                <span class="comp-prize badge badge-orange"><span class="lang-en">National 2nd Prize</span><span class="lang-zh">国家二等奖</span></span>
+                                <span class="comp-name"><span class="lang-en">China TRIZ Cup Undergraduate Innovation
+                                        Method Competition</span><span class="lang-zh">中国TRIZ杯大学生创新方法大赛</span></span>
+                                <span class="comp-prize badge badge-orange"><span class="lang-en">National 2nd
+                                        Prize</span><span class="lang-zh">国家二等奖</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2024 / 2025</span>
-                                <span class="comp-name"><span class="lang-en">China International College Students Innovation Competition</span><span class="lang-zh">中国国际大学生创新大赛 (原互联网+)</span></span>
-                                <span class="comp-prize badge badge-purple"><span class="lang-en">National Bronze / Prov. Gold & Silver</span><span class="lang-zh">国家铜奖 1项 / 省级金奖 1项、银奖 2项</span></span>
+                                <span class="comp-name"><span class="lang-en">China International College Students
+                                        Innovation Competition</span><span class="lang-zh">中国国际大学生创新大赛
+                                        (原互联网+)</span></span>
+                                <span class="comp-prize badge badge-purple"><span class="lang-en">National Bronze /
+                                        Prov. Gold & Silver</span><span class="lang-zh">国家铜奖 1项 / 省级金奖 1项、银奖
+                                        2项</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2024.11</span>
-                                <span class="comp-name"><span class="lang-en">National Undergraduate Physics Experiment Competition</span><span class="lang-zh">全国大学生物理实验竞赛</span></span>
-                                <span class="comp-prize badge badge-blue"><span class="lang-en">National 3rd Prize</span><span class="lang-zh">国家三等奖</span></span>
+                                <span class="comp-name"><span class="lang-en">National Undergraduate Physics Experiment
+                                        Competition</span><span class="lang-zh">全国大学生物理实验竞赛</span></span>
+                                <span class="comp-prize badge badge-blue"><span class="lang-en">National 3rd
+                                        Prize</span><span class="lang-zh">国家三等奖</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2023 / 2024</span>
-                                <span class="comp-name"><span class="lang-en">National University Students Intelligent Car Competition</span><span class="lang-zh">全国大学生智能汽车竞赛 (智能车)</span></span>
-                                <span class="comp-prize badge badge-blue"><span class="lang-en">Northeast Division 2nd Prize (x2)</span><span class="lang-zh">东北赛区二等奖 2项</span></span>
+                                <span class="comp-name"><span class="lang-en">National University Students Intelligent
+                                        Car Competition</span><span class="lang-zh">全国大学生智能汽车竞赛 (智能车)</span></span>
+                                <span class="comp-prize badge badge-blue"><span class="lang-en">Northeast Division 2nd
+                                        Prize (x2)</span><span class="lang-zh">东北赛区二等奖 2项</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2024.11</span>
-                                <span class="comp-name"><span class="lang-en">ICAN College Students Innovation & Entrepreneurship Competition</span><span class="lang-zh">iCAN大学生创新创业大赛</span></span>
-                                <span class="comp-prize badge badge-blue"><span class="lang-en">Provincial 1st Prize</span><span class="lang-zh">省级一等奖</span></span>
+                                <span class="comp-name"><span class="lang-en">ICAN College Students Innovation &
+                                        Entrepreneurship Competition</span><span
+                                        class="lang-zh">iCAN大学生创新创业大赛</span></span>
+                                <span class="comp-prize badge badge-blue"><span class="lang-en">Provincial 1st
+                                        Prize</span><span class="lang-zh">省级一等奖</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2023.11</span>
-                                <span class="comp-name"><span class="lang-en">National Undergraduate Mathematical Modeling Contest</span><span class="lang-zh">全国大学生数学建模竞赛 (国赛)</span></span>
-                                <span class="comp-prize badge badge-blue"><span class="lang-en">Provincial 2nd Prize</span><span class="lang-zh">省级二等奖</span></span>
+                                <span class="comp-name"><span class="lang-en">National Undergraduate Mathematical
+                                        Modeling Contest</span><span class="lang-zh">全国大学生数学建模竞赛 (国赛)</span></span>
+                                <span class="comp-prize badge badge-blue"><span class="lang-en">Provincial 2nd
+                                        Prize</span><span class="lang-zh">省级二等奖</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2024.05</span>
-                                <span class="comp-name"><span class="lang-en">National Undergraduate Optoelectronic Design Competition</span><span class="lang-zh">全国大学生光电设计竞赛</span></span>
-                                <span class="comp-prize badge badge-blue"><span class="lang-en">Provincial 2nd Prize</span><span class="lang-zh">省级二等奖</span></span>
+                                <span class="comp-name"><span class="lang-en">National Undergraduate Optoelectronic
+                                        Design Competition</span><span class="lang-zh">全国大学生光电设计竞赛</span></span>
+                                <span class="comp-prize badge badge-blue"><span class="lang-en">Provincial 2nd
+                                        Prize</span><span class="lang-zh">省级二等奖</span></span>
                             </li>
                         </ul>
                     </div>
                     <!-- Competitions and Activities Photo Gallery -->
-                    <div class="awards-subsection" style="margin-top: 24px; border-top: 1px dashed var(--border-color); padding-top: 20px;">
+                    <div class="awards-subsection"
+                        style="margin-top: 24px; border-top: 1px dashed var(--border-color); padding-top: 20px;">
                         <h3>
                             <i data-lucide="image" class="inline-icon"></i>
-                            <span class="lang-en">Competition & Activity Gallery</span>
-                            <span class="lang-zh">竞赛与活动风采</span>
+                            <span class="lang-en">Honors & Certificates Gallery</span>
+                            <span class="lang-zh">荣誉证书风采</span>
                         </h3>
-                        
+
+                        <div class="certificate-grid">
+                            <!-- Cert 1 -->
+                            <div class="certificate-card" data-lightbox-src="assets/certificate_mockup.png"
+                                data-lightbox-title="National Undergraduate Electronic Design Contest (NUEDC) - National 2nd Prize | 全国大学生电子设计竞赛二等奖">
+                                <div class="certificate-preview">
+                                    <img src="assets/certificate_mockup.png" alt="NUEDC National 2nd Prize">
+                                    <div class="cert-overlay-ribbon gold">
+                                        <span>NUEDC</span>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <span class="certificate-title">
+                                        <span class="lang-en">National 2nd Prize</span>
+                                        <span class="lang-zh">全国大学生电子设计竞赛二等奖</span>
+                                    </span>
+                                    <span class="certificate-issuer">National Organizing Committee</span>
+                                </div>
+                            </div>
+
+                            <!-- Cert 2 -->
+                            <div class="certificate-card" data-lightbox-src="assets/certificate_mockup.png"
+                                data-lightbox-title="China International College Students Innovation Competition - National Bronze Award | 中国国际大学生创新大赛国家级铜奖">
+                                <div class="certificate-preview">
+                                    <img src="assets/certificate_mockup.png"
+                                        alt="Innovation Competition National Bronze">
+                                    <div class="cert-overlay-ribbon bronze">
+                                        <span>Bronze</span>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <span class="certificate-title">
+                                        <span class="lang-en">National Bronze Award</span>
+                                        <span class="lang-zh">中国国际大学生创新大赛国家级铜奖</span>
+                                    </span>
+                                    <span class="certificate-issuer">Ministry of Education, PRC</span>
+                                </div>
+                            </div>
+
+                            <!-- Cert 3 -->
+                            <div class="certificate-card" data-lightbox-src="assets/certificate_mockup.png"
+                                data-lightbox-title="China TRIZ Cup Undergraduate Innovation Method Competition - National 2nd Prize | 中国TRIZ杯创新方法大赛二等奖">
+                                <div class="certificate-preview">
+                                    <img src="assets/certificate_mockup.png" alt="TRIZ Cup National 2nd Prize">
+                                    <div class="cert-overlay-ribbon gold">
+                                        <span>TRIZ Cup</span>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <span class="certificate-title">
+                                        <span class="lang-en">National 2nd Prize</span>
+                                        <span class="lang-zh">中国TRIZ杯创新方法大赛二等奖</span>
+                                    </span>
+                                    <span class="certificate-issuer">MOST, CAST, PRC</span>
+                                </div>
+                            </div>
+
+                            <!-- Cert 4 -->
+                            <div class="certificate-card" data-lightbox-src="assets/certificate_mockup.png"
+                                data-lightbox-title="iCAN College Students Innovation & Entrepreneurship Competition - Provincial 1st Prize | iCAN大学生创新创业大赛省级一等奖">
+                                <div class="certificate-preview">
+                                    <img src="assets/certificate_mockup.png"
+                                        alt="iCAN Competition Provincial 1st Prize">
+                                    <div class="cert-overlay-ribbon blue">
+                                        <span>iCAN</span>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <span class="certificate-title">
+                                        <span class="lang-en">Provincial 1st Prize</span>
+                                        <span class="lang-zh">iCAN大学生创新创业大赛省级一等奖</span>
+                                    </span>
+                                    <span class="certificate-issuer">iCAN Organizing Committee</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -729,4 +1043,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

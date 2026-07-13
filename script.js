@@ -53,16 +53,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Scroll Spy & Navigation Highlighting
     const sections = document.querySelectorAll('section[id]');
-    
+
     function scrollSpy() {
         const scrollY = window.pageYOffset;
-        
+
         sections.forEach(current => {
             const sectionHeight = current.offsetHeight;
             const sectionTop = current.offsetTop - 120; // Offset for navbar
             const sectionId = current.getAttribute('id');
             const navLink = document.querySelector(`.nav-menu a[href*=${sectionId}]`);
-            
+
             if (navLink) {
                 if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
                     document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
@@ -98,4 +98,19 @@ document.addEventListener('DOMContentLoaded', () => {
             lightbox.classList.remove('active');
         }
     });
+
+    // --- Certificate Gallery Lightbox Link ---
+    const certCards = document.querySelectorAll('.certificate-card');
+    certCards.forEach(card => {
+        card.addEventListener('click', () => {
+            const src = card.getAttribute('data-lightbox-src');
+            const title = card.getAttribute('data-lightbox-title');
+            if (src && lightboxImg && lightbox) {
+                lightboxImg.src = src;
+                lightboxCaption.textContent = title;
+                lightbox.classList.add('active');
+            }
+        });
+    });
+
 });
