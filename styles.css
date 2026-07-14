@@ -476,6 +476,19 @@ body.light-mode .moon-icon {
     transform: translateY(-1px);
 }
 
+.btn-orcid {
+    background-color: #A6CE39;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 12px rgba(166, 206, 57, 0.3);
+}
+
+.btn-orcid:hover {
+    background-color: #95ba32;
+    box-shadow: 0 6px 20px rgba(166, 206, 57, 0.5);
+    transform: translateY(-1px);
+}
+
 .btn-outline {
     background-color: transparent;
     border: 1px solid var(--border-color);
@@ -585,102 +598,9 @@ body.light-mode .moon-icon {
     margin-bottom: 0;
 }
 
-/* News Section Timeline */
-.timeline {
-    list-style: none;
-    position: relative;
-    padding-left: 24px;
-}
 
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 4px;
-    top: 8px;
-    bottom: 8px;
-    width: 2px;
-    background: var(--border-color);
-}
 
-.timeline-item {
-    position: relative;
-    margin-bottom: 24px;
-}
 
-.timeline-item:last-child {
-    margin-bottom: 0;
-}
-
-.timeline-item::before {
-    content: '';
-    position: absolute;
-    left: -24px;
-    top: 6px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: var(--bg-secondary);
-    border: 2px solid var(--accent-primary);
-    z-index: 1;
-    transition: background-color var(--transition-fast);
-}
-
-.timeline-item:hover::before {
-    background-color: var(--accent-secondary);
-}
-
-.timeline-date {
-    display: block;
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: var(--accent-primary);
-    margin-bottom: 4px;
-}
-
-.timeline-content {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-}
-
-/* Research Areas */
-.research-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-.research-item {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.research-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    border-radius: var(--border-radius-md);
-    background: var(--accent-glow);
-    color: var(--accent-primary);
-}
-
-.research-icon i {
-    width: 24px;
-    height: 24px;
-}
-
-.research-name {
-    font-size: 1.15rem;
-    font-weight: 600;
-}
-
-.research-desc {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    line-height: 1.6;
-}
 
 /* Publications */
 .publications-list {
@@ -1146,9 +1066,7 @@ body.light-mode .moon-icon {
         display: flex;
     }
 
-    .research-grid {
-        grid-template-columns: 1fr;
-    }
+
 
     .awards-list li,
     .competition-list li {
@@ -1422,77 +1340,158 @@ body.light-mode .moon-icon {
 }
 
 /* --- Certificate Grid & Gallery --- */
+.certificate-group-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.certificate-group-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--border-color) 0%, transparent 100%);
+}
+
 .certificate-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+/* Spacer to make sure the last row aligns to the left naturally */
+.certificate-grid::after {
+    content: '';
+    flex: auto;
+    max-width: 100%;
 }
 
 .certificate-card {
     background: var(--bg-glass);
     border: 1px solid var(--border-color);
-    border-radius: var(--border-radius-md);
-    padding: 16px;
+    border-radius: var(--border-radius-sm);
+    padding: 8px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
     position: relative;
     overflow: hidden;
     transition: all var(--transition-normal);
     cursor: pointer;
+    width: fit-content; /* Shrinkwrap to image width */
+    height: 280px; /* Strictly uniform card height on desktop */
+    box-sizing: border-box;
 }
 
 .certificate-card:hover {
     border-color: var(--accent-primary);
-    box-shadow: 0 10px 30px var(--accent-glow), var(--card-glow);
-    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--accent-glow), var(--card-glow);
+    transform: translateY(-2px);
 }
 
 .certificate-preview {
+    height: 200px; /* Strictly uniform image height on desktop */
     width: 100%;
-    height: 140px;
-    background: var(--bg-primary);
+    background: transparent;
     border-radius: var(--border-radius-sm);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    border: 1px solid var(--border-color);
     overflow: hidden;
 }
 
 .certificate-preview img {
-    width: 100%;
     height: 100%;
-    object-fit: cover;
+    width: auto; /* width adjusts naturally to preserve aspect ratio */
+    display: block;
+    object-fit: contain; /* Do not crop the certificate */
     opacity: 0.9;
     transition: all var(--transition-normal);
 }
 
 .certificate-card:hover .certificate-preview img {
-    transform: scale(1.05);
+    transform: scale(1.02);
     opacity: 1;
+}
+
+.certificate-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 54px;
+    overflow: hidden;
+    width: 0;
+    min-width: 100%; /* Force text to wrap to the image width instead of stretching the card */
+}
+
+/* Responsive heights for certificate wall (guaranteeing uniform image heights) */
+@media (max-width: 850px) {
+    .certificate-card {
+        height: 230px;
+    }
+    .certificate-preview {
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .certificate-card {
+        height: 180px;
+    }
+    .certificate-preview {
+        height: 100px;
+    }
+}
+
+/* Slightly enlarge the last couple of rows on desktop so the certificate wall
+   has less trailing blank space, while keeping images in the same row equal. */
+@container awards (min-width: 800px) {
+    .certificate-card:nth-last-child(-n + 5) {
+        height: 330px;
+    }
+
+    .certificate-card:nth-last-child(-n + 5) .certificate-preview {
+        height: 250px;
+    }
+
+    .certificate-card:nth-last-child(-n + 2) {
+        height: 380px;
+    }
+
+    .certificate-card:nth-last-child(-n + 2) .certificate-preview {
+        height: 300px;
+    }
 }
 
 .cert-overlay-ribbon {
     position: absolute;
-    top: 12px;
-    right: -28px;
+    top: 8px;
+    right: -32px;
     transform: rotate(45deg);
-    width: 100px;
+    width: 90px;
     text-align: center;
-    padding: 3px 0;
-    font-size: 0.55rem;
+    padding: 2px 0;
+    font-size: 0.5rem;
     font-weight: 700;
     text-transform: uppercase;
     color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
     z-index: 2;
 }
 
 .cert-overlay-ribbon.gold {
     background: linear-gradient(135deg, #eab308, #ca8a04);
+}
+
+.cert-overlay-ribbon.silver {
+    background: linear-gradient(135deg, #94a3b8, #64748b);
 }
 
 .cert-overlay-ribbon.bronze {
@@ -1506,18 +1505,18 @@ body.light-mode .moon-icon {
 .certificate-info {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
 }
 
 .certificate-title {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--text-primary);
     line-height: 1.3;
 }
 
 .certificate-issuer {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     color: var(--text-muted);
 }
 
@@ -1684,27 +1683,7 @@ body.light-mode .moon-icon {
     box-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
 }
 
-/* --- Research card hover glow line at bottom --- */
-.research-item {
-    overflow: hidden;
-    position: relative;
-}
 
-.research-item::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--accent-gradient);
-    border-radius: 0 0 12px 12px;
-    transition: width var(--transition-normal);
-}
-
-.research-item:hover::after {
-    width: 100%;
-}
 
 /* --- Enhanced tag hover with shimmer --- */
 @keyframes tagShimmer {
