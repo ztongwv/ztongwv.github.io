@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;
 
-    // Load saved theme or default to dark-mode
-    const savedTheme = localStorage.getItem('theme') || 'dark-mode';
+    // Load saved theme or default to light-mode
+    const savedTheme = localStorage.getItem('theme') || 'light-mode';
     body.className = savedTheme;
 
     themeToggle.addEventListener('click', () => {
@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const langToggle = document.getElementById('lang-toggle');
     const htmlElement = document.documentElement;
 
-    // Load saved language or default to en
-    const savedLang = localStorage.getItem('lang') || 'en';
+    // Load saved language or default to zh
+    const savedLang = localStorage.getItem('lang') || 'zh';
     htmlElement.setAttribute('lang', savedLang);
 
     langToggle.addEventListener('click', () => {

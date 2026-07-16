@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
     <meta charset="UTF-8">
@@ -16,11 +16,12 @@
     <!-- Lucide Icons for premium feel -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
     <meta name="keywords" content="Zhetong Zhang, 张哲通, microrobotics, VLA, computer vision, IROS, academic homepage">
     <meta name="author" content="Zhetong Zhang">
 </head>
 
-<body class="dark-mode">
+<body class="light-mode">
     <!-- Background elements for ambient glow -->
     <div class="ambient-glow bg-glow-1"></div>
     <div class="ambient-glow bg-glow-2"></div>
@@ -110,8 +111,8 @@
                     </div>
                     <div class="meta-item">
                         <i data-lucide="map-pin"></i>
-                        <span class="lang-en">Daqing, Heilongjiang, China</span>
-                        <span class="lang-zh">中国 · 黑龙江 · 大庆</span>
+                        <span class="lang-en">Dalian, Liaoning, China</span>
+                        <span class="lang-zh">中国 · 辽宁 · 大连</span>
                     </div>
                 </div>
 
@@ -171,6 +172,7 @@
                     </li>
                 </ul>
             </div>
+
         </aside>
 
         <!-- Right Column: Scrolling Content -->
@@ -181,6 +183,7 @@
                     <span class="lang-en">About Me</span>
                     <span class="lang-zh">关于我</span>
                 </h2>
+
                 <div class="card about-card">
                     <div class="lang-en">
                         <p class="lead-text">
@@ -210,19 +213,15 @@
                             我毕业于东北石油大学电子科学与技术专业（国家级一流本科专业建设点），荣获<strong>东北石油大学优秀毕业生</strong>，本科毕业设计荣获<strong>优秀毕业设计</strong>。
                         </p>
                         <p>
-                            在校期间，我担任了学校电子工程实验中心创新基地学生总负责人以及天方科技创新创业协会主席，并入选了华为云学生开发者计划(HCSD)的校园大使
-                            。2026年1月至3月，我在<strong>清华大学智能制造与精密加工实验室</strong>担任科研实习生。
+                            在校期间，我担任了学校电子工程实验中心创新基地学生总负责人以及天方科技创新创业协会主席，并入选了华为云学生开发者计划(HCSD)的校园大使。2026年1月至3月，我在<strong>清华大学智能制造与精密加工实验室</strong>担任科研实习生。
                         </p>
                         <p>
-                            我的核心研究方向为<strong>微纳机器人自主导航与操控（VLA具身智能框架）</strong>、<strong>云边协同工业物联网</strong>以及<strong>先进计算机视觉缺陷检测算法</strong>。我主持了黑龙江省大学生创新训练计划项目1项，申请国家专利3项（含发明专利1项），授权计算机软件著作权2项。在学术上，我撰写并发表/录用学术论文7篇（其中一作/共同一作累计4篇），研究成果发表于
-                            IROS 或投递于 JRTIP 等。
+                            我的核心研究方向为<strong>微纳机器人自主导航与操控（VLA具身智能框架）</strong>、<strong>云边协同工业物联网</strong>以及<strong>先进计算机视觉缺陷检测算法</strong>。我主持了黑龙江省大学生创新训练计划项目（省级立项）1项，申请专利3项，授权软件著作权2项。已发表或录用学术论文7篇（第一作者或共同第一作者4篇），包括录用于机器人顶会 IROS 论文，以及在投 JRTIP 等期刊会议。
                         </p>
                     </div>
                 </div>
             </section>
 
-
-            <!-- Projects Section -->
             <section id="projects" class="content-section">
                 <h2 class="section-title">
                     <span class="lang-en">Key Research Projects</span>
@@ -261,7 +260,7 @@
                                 <li>
                                     <span class="lang-en">Granted 1 Software Copyright (1st author) & 1 Patent (1st
                                         inventor).</span>
-                                    <span class="lang-zh">获批软件著作权1项（第一著作权人），申请专利1项（第一发明人）。</span>
+                                    <span class="lang-zh">获批软件著作权1项（第一著作权人），授权专利1项（第一发明人）。</span>
                                 </li>
                             </ul>
                         </div>
@@ -269,16 +268,38 @@
                         <!-- Video/GIF Demonstration -->
                         <div class="project-demo">
                             <div class="demo-title">
-                                <i data-lucide="video" class="inline-icon"></i>
+                                <i data-lucide="play-circle" class="inline-icon"></i>
                                 <span class="lang-en">Demonstration: Edge-Cloud Real-time Defect Scanning</span>
-                                <span class="lang-zh">演示视频：云边协同实时缺陷扫描检测</span>
+                                <span class="lang-zh">项目演示：云边协同实时缺陷扫描与算法验证</span>
                             </div>
-                            <div class="demo-screen media-screen">
-                                <video autoplay loop muted playsinline class="demo-video">
-                                    <source src="assets/pcb_demo.mp4" type="video/mp4">
-                                    <img src="assets/paper_figure_mockup.png" alt="PCB Defect Scanning Demo">
-                                </video>
-                                <span class="media-type-badge">MP4 / GIF</span>
+                            <div class="pcb-gif-grid">
+                                <div class="pcb-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <img src="assets/LFDETR.png" alt="LF-DETR Architecture" loading="lazy">
+                                    </div>
+                                    <span class="pcb-gif-label">
+                                        <span class="lang-en">LF-DETR Architecture</span>
+                                        <span class="lang-zh">LF-DETR整体结构</span>
+                                    </span>
+                                </div>
+                                <div class="pcb-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <img src="assets/pcb_hologram_promo.webp" alt="PCB Hologram Promo" loading="lazy">
+                                    </div>
+                                    <span class="pcb-gif-label">
+                                        <span class="lang-en">Algorithm Principle</span>
+                                        <span class="lang-zh">算法原理</span>
+                                    </span>
+                                </div>
+                                <div class="pcb-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <img src="assets/pcb_scan.webp" alt="PCB Defect Detection" loading="lazy">
+                                    </div>
+                                    <span class="pcb-gif-label">
+                                        <span class="lang-en">Detection System</span>
+                                        <span class="lang-zh">检测系统</span>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -414,6 +435,13 @@
                     <span class="lang-en">Selected Publications</span>
                     <span class="lang-zh">学术成果</span>
                 </h2>
+                <div class="pub-footnote" style="margin-bottom: 15px; font-size: 0.8rem; color: var(--text-muted); display: flex; gap: 8px; align-items: center; margin-top: -10px;">
+                    <span class="lang-en">&dagger; Co-first authors</span>
+                    <span class="lang-zh">&dagger; 共同第一作者</span>
+                    <span>/</span>
+                    <span class="lang-en">* Corresponding authors</span>
+                    <span class="lang-zh">* 通讯作者</span>
+                </div>
 
                 <div class="publications-list">
                     <!-- Publication 1: MicroVLA -->
@@ -421,52 +449,39 @@
                         <div class="pub-header">
                             <span class="pub-number">[1]</span>
                             <div class="pub-badges">
-                                <span class="badge badge-purple"><span class="lang-en">Co-First Author</span><span
-                                        class="lang-zh">共同第一作者</span></span>
-                                <span class="badge badge-green"><span class="lang-en">Accepted (IROS 2026)</span><span
-                                        class="lang-zh">已录用 (IROS 2026)</span></span>
+                                <span class="badge badge-purple">Co-First Author</span>
+                                <span class="badge badge-green">Accepted (IROS 2026)</span>
                             </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">MicroVLA: A Vision-Language-Action Framework for Microrobotic
-                                Navigation Considering Inter-Particle Micro-Force Fields</span>
-                            <span class="lang-zh">MicroVLA: 考虑粒子间微观力场的微型机器人导航视觉-语言-动作框架</span>
+                            MicroVLA: A Vision-Language-Action Framework for Microrobotic Navigation Considering Inter-Particle Micro-Force Fields
                         </h3>
                         <p class="pub-authors">
                             Haohan Min<sup>&dagger;</sup>, Zexin Song<sup>&dagger;</sup>, <strong>Zhetong Zhang<sup>&dagger;</sup></strong>, Rui Tang, Hengchang Zhang,
                             Haoyuan Xue, Jie Xu<sup>*</sup>, Feng Feng<sup>*</sup> and Pingfa Feng.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">IEEE/RSJ International Conference on Intelligent Robots and Systems
-                                (IROS), 2026. (Accepted, Top Robotics Conference)</span>
-                            <span class="lang-zh">IEEE/RSJ 国际智能机器人与系统大会 (IROS), 2026. (已录用, 机器人顶会)</span>
+                            IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026. (Accepted, Top Robotics Conference)
                         </p>
                     </div>
 
-                    <!-- Publication 2: LR-DETR -->
+                    <!-- Publication 2: LF-DETR -->
                     <div class="pub-card card pub-accent-blue">
                         <div class="pub-header">
                             <span class="pub-number">[2]</span>
                             <div class="pub-badges">
-                                <span class="badge badge-purple"><span class="lang-en">First Author</span><span
-                                        class="lang-zh">第一作者</span></span>
-                                <span class="badge badge-blue"><span class="lang-en">Under Review</span><span
-                                        class="lang-zh">在审</span></span>
+                                <span class="badge badge-purple">First Author</span>
+                                <span class="badge badge-blue">Under Review</span>
                             </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">LR-DETR: Ultra-Small Object Detection Model with Affine Calibration
-                                and High-Resolution Fusion Downsampling</span>
-                            <span class="lang-zh">LR-DETR: 结合仿射校正与高分辨率融合下采样的超小目标检测模型</span>
+                            LF-DETR: Ultra-Small Object Detection Model with Affine Calibration and High-Resolution Fusion Downsampling
                         </h3>
                         <p class="pub-authors">
                             <strong>Zhetong Zhang</strong>, Xinyue Zhang*, Xintao Wang.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">Journal of Real-Time Image Processing (JRTIP). (Under Review, JCR Q2,
-                                IF = 3.0)</span>
-                            <span class="lang-zh">Journal of Real-Time Image Processing (JRTIP) 期刊. (在审, JCR Q2区,
-                                影响因子3.0)</span>
+                            Journal of Real-Time Image Processing (JRTIP). (Under Review, JCR Q2, IF = 3.0)
                         </p>
                     </div>
 
@@ -475,26 +490,19 @@
                         <div class="pub-header">
                             <span class="pub-number">[3]</span>
                             <div class="pub-badges">
-                                <span class="badge badge-purple"><span class="lang-en">First Author</span><span
-                                        class="lang-zh">第一作者</span></span>
-                                <span class="badge badge-green"><span class="lang-en">Accepted</span><span
-                                        class="lang-zh">已录用</span></span>
+                                <span class="badge badge-purple">First Author</span>
+                                <span class="badge badge-green">Accepted</span>
                                 <span class="badge badge-orange">CAA-A</span>
                             </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">Machine Vision Based Surface Defect Detection Method for PCBs in
-                                Industrial Production</span>
-                            <span class="lang-zh">基于机器视觉的工业生产中 PCB 表面缺陷检测方法</span>
+                            Machine Vision Based Surface Defect Detection Method for PCBs in Industrial Production
                         </h3>
                         <p class="pub-authors">
                             <strong>Zhetong Zhang</strong>, Xinyue Zhang*.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">2026 45th Chinese Control Conference (CCC). IEEE, 2026. (Accepted, EI,
-                                CAA Class A Recommended Conference)</span>
-                            <span class="lang-zh">第45届中国控制会议 (CCC 2026). IEEE, 2026. (已录用, EI检索,
-                                中国自动化学会CAA推荐A类会议)</span>
+                            2026 45th Chinese Control Conference (CCC). IEEE, 2026. (Accepted, EI, CAA Class A Recommended Conference)
                         </p>
                     </div>
 
@@ -503,30 +511,24 @@
                         <div class="pub-header">
                             <span class="pub-number">[4]</span>
                             <div class="pub-badges">
-                                <span class="badge badge-purple"><span class="lang-en">First Author</span><span
-                                        class="lang-zh">第一作者</span></span>
+                                <span class="badge badge-purple">First Author</span>
                                 <span class="badge badge-green">Published</span>
                                 <span class="badge badge-orange">CAA-A</span>
                             </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">PCB detection algorithm based on improved YOLO11n</span>
-                            <span class="lang-zh">基于改进 YOLO11n 的 PCB 检测算法</span>
+                            PCB detection algorithm based on improved YOLO11n
                         </h3>
                         <p class="pub-authors">
                             <strong>Zhetong Zhang*</strong>.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">2025 IEEE 14th Data Driven Control and Learning Systems (DDCLS). IEEE,
-                                2025: 972-977. (Published, EI, CAA Class A Recommended Conference)</span>
-                            <span class="lang-zh">第14届数据驱动控制与学习系统会议 (DDCLS 2025). IEEE, 2025: 972-977. (已发表, EI检索,
-                                中国自动化学会CAA推荐A类会议)</span>
+                            2025 IEEE 14th Data Driven Control and Learning Systems (DDCLS). IEEE, 2025: 972-977. (Published, EI, CAA Class A Recommended Conference)
                         </p>
-                        <a href="https://doi.org/10.1109/DDCLS64564.2025" target="_blank" rel="noopener"
+                        <a href="https://ieeexplore.ieee.org/document/11065739" target="_blank" rel="noopener"
                             class="pub-doi-link">
                             <i data-lucide="external-link" style="width:12px;height:12px;"></i>
-                            <span class="lang-en">IEEE Xplore</span>
-                            <span class="lang-zh">查看论文</span>
+                            <span>IEEE Xplore</span>
                         </a>
                     </div>
 
@@ -535,47 +537,75 @@
                         <div class="pub-header">
                             <span class="pub-number">[5]</span>
                             <div class="pub-badges">
-                                <span class="badge badge-green">Published</span>
+                                <span class="badge badge-purple">中英双语版 (Bilingual)</span>
+                                <span class="badge badge-orange">北大核心</span>
+                                <span class="badge badge-green">EI</span>
+                                <span class="badge badge-blue">CSCD</span>
                             </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">Hydrocarbon detection method based on fractional adaptive superlet
-                                transform</span>
-                            <span class="lang-zh">基于分数阶自适应 Superlet 变换的油气检测方法</span>
+                            <span class="pub-title-en" style="display:block; margin-bottom: 6px;">Hydrocarbon detection method based on fractional adaptive superlet transform</span>
+                            <span class="pub-title-zh" style="display:block; font-size: 0.95em; color: var(--text-secondary); font-weight: normal;">自适应分数超小波变换烃类检测方法</span>
                         </h3>
                         <p class="pub-authors">
-                            Xintao Wang, Siyuan Chen, Jiawen Fu, <strong>Zhetong Zhang</strong>, Shuwen Guo.
+                            Xintao Wang, Siyuan Chen*, Jiawen Fu, <strong>Zhetong Zhang</strong>, Shuwen Guo.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">Journal of Geophysical Prospecting, 2(1), 2026: 77-87. (Published,
-                                EI-JA)</span>
-                            <span class="lang-zh">Journal of Geophysical Prospecting 期刊, 2(1), 2026: 77-87. (已发表,
-                                EI期刊)</span>
+                            石油地球物理勘探 / Journal of Geophysical Prospecting, 2(1), 2026: 77-87. (Published, EI-JA)
                         </p>
+                        <div class="pub-links" style="display: flex; gap: 12px; margin-top: 8px;">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S3117651826000098" target="_blank" rel="noopener" class="pub-doi-link">
+                                <i data-lucide="external-link" style="width:12px;height:12px;"></i>
+                                <span>ScienceDirect (English)</span>
+                            </a>
+                            <a href="https://kns.cnki.net/kcms2/article/abstract?v=f9AMVDUgxC-YALX6TWsw3VRsPmR1YEVGICGspAb1L8EfTP6w46Tbtl4hEtLmn5CPiW44zz_7RA_lZvG6Bh_Pwo5DCdfvv_iu_gTx0Za-_alOVY7MNPGuxzaepnM2jn1_BEsFaDVlTLYIQCSIBxbpgaRfCEga8I0dcmPheDq7BeM=&uniplatform=NZKPT" target="_blank" rel="noopener" class="pub-doi-link">
+                                <i data-lucide="external-link" style="width:12px;height:12px;"></i>
+                                <span>知网 (中文)</span>
+                            </a>
+                        </div>
                     </div>
 
-                    <!-- Publication 6: MG-VTLA -->
+                    <!-- Publication 6: Coating Robot (Chinese) -->
                     <div class="pub-card card pub-accent-green">
                         <div class="pub-header">
                             <span class="pub-number">[6]</span>
                             <div class="pub-badges">
-                                <span class="badge badge-green"><span class="lang-en">Accepted (IROS 2026)</span><span
-                                        class="lang-zh">已录用 (IROS 2026)</span></span>
+                                <span class="badge badge-orange">科技核心</span>
                             </div>
                         </div>
                         <h3 class="pub-title">
-                            <span class="lang-en">MG-VTLA: A Vision–Tactile–Language–Action Framework for Contact-Robust
-                                Robotic Micro-Grasping</span>
-                            <span class="lang-zh">MG-VTLA: 用于鲁棒接触机器人微抓取的视觉-触觉-语言-动作框架</span>
+                            小直径一体化涂覆机器人控制系统设计
+                        </h3>
+                        <p class="pub-authors">
+                            李丽萍, 薛皓元, <strong>张哲通</strong>, 董康兴*.
+                        </p>
+                        <p class="pub-venue">
+                            化工自动化及仪表, 52(1), 2025: 56-62+69. (已发表, 科技核心)
+                        </p>
+                        <a href="https://kns.cnki.net/kcms2/article/abstract?v=f9AMVDUgxC-zQOsjdjOnzHnUQSxySIISIzmdIM_Xa7T_QmC6vwN5EkjlakGjXHNcVgr5Zyd-n6L-WWrufCu6Oe8p6eqw_IRwCmSrjo8dsaYCf2zPzr56Qy4FDywkkMEJEB7o_c1L9yfeG7_Assow1BYR_QTUSDrkVUn_TyqOhTwdSHkMbGACeQ==&uniplatform=NZKPT&language=CHS" target="_blank" rel="noopener"
+                            class="pub-doi-link">
+                            <i data-lucide="external-link" style="width:12px;height:12px;"></i>
+                            <span>知网 (中文)</span>
+                        </a>
+                    </div>
+
+                    <!-- Publication 7: MG-VTLA -->
+                    <div class="pub-card card pub-accent-green">
+                        <div class="pub-header">
+                            <span class="pub-number">[7]</span>
+                            <div class="pub-badges">
+                                <span class="badge badge-green">Accepted (IROS 2026)</span>
+                            </div>
+                        </div>
+                        <h3 class="pub-title">
+                            MG-VTLA: A Vision–Tactile–Language–Action Framework for Contact-Robust Robotic Micro-Grasping
                         </h3>
                         <p class="pub-authors">
                             Xu Jie<sup>&dagger;</sup>, Haohan Min<sup>&dagger;</sup>, Hengchang Zhang<sup>&dagger;</sup>, <strong>Zhetong Zhang</strong>, Song Zexin, Rui Tang,
                             Lv Jingwei, Haoyuan Xue, Feng Feng<sup>*</sup>, Pingfa Feng.
                         </p>
                         <p class="pub-venue">
-                            <span class="lang-en">IEEE/RSJ International Conference on Intelligent Robots and Systems
-                                (IROS), 2026. (Accepted, June 2026, Top Robotics Conference)</span>
-                            <span class="lang-zh">IEEE/RSJ 国际智能机器人与系统大会 (IROS), 2026. (已录用, 2026年6月, 机器人顶会)</span>
+                            IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026. (Accepted, June 2026, Top Robotics Conference)
                         </p>
                     </div>
                 </div>
@@ -624,8 +654,8 @@
                         <div class="patent-info">
                             <h4>
                                 <span class="lang-en">A Dual-mode Wave Energy Vibration Power Generation Device
-                                    (Invention Patent)</span>
-                                <span class="lang-zh">一种双模式波浪能振动发电装置（国家发明专利）</span>
+                                    (Invention Patent, Pending)</span>
+                                <span class="lang-zh">一种双模式波浪能振动发电装置（国家发明专利，申请中）</span>
                             </h4>
                             <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span
                                     class="lang-en">3rd Inventor</span><span class="lang-zh">第三发明人</span> |
@@ -696,6 +726,10 @@
                             <li>
                                 <span class="award-name"><span class="lang-en">Northeast Petroleum University
                                         Outstanding Graduate</span><span class="lang-zh">东北石油大学优秀毕业生</span></span>
+                                <span class="award-level">2026</span>
+                            </li>
+                            <li>
+                                <span class="award-name"><span class="lang-en">Outstanding Graduation Design (Thesis) of Northeast Petroleum University</span><span class="lang-zh">东北石油大学优秀毕业设计（论文）</span></span>
                                 <span class="award-level">2026</span>
                             </li>
                             <li>
