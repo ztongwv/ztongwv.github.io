@@ -14,7 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap"
         rel="stylesheet">
     <!-- Lucide Icons for premium feel -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
     <meta name="keywords" content="Zhetong Zhang, 张哲通, microrobotics, VLA, computer vision, IROS, academic homepage">
@@ -81,7 +81,7 @@
         <aside class="sidebar">
             <div class="profile-card card animate-fade-in">
                 <div class="profile-img-container">
-                    <img src="assets/profile_full.jpg" alt="Zhetong Zhang" class="profile-img"
+                    <img src="assets/profile_full.webp" alt="Zhetong Zhang" class="profile-img"
                         onerror="this.src='assets/avatar.png'">
                 </div>
 
@@ -101,6 +101,11 @@
                     <p class="profile-dept">
                         <span class="lang-en">Electronic Science & Technology</span>
                         <span class="lang-zh">电子科学与技术专业</span>
+                    </p>
+                    <p class="profile-membership" style="font-size: 0.85rem; color: var(--accent-primary); font-weight: 600; margin-top: 6px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+                        <i data-lucide="award" class="inline-icon"></i>
+                        <span class="lang-en">IEEE Student Member</span>
+                        <span class="lang-zh">IEEE 学生会员</span>
                     </p>
                 </div>
 
@@ -195,16 +200,16 @@
                         <p>
                             I served as the overall Student Lead of the Innovation Base of the Electronic Engineering
                             Experimental Center, President of the Tianfang Sci-Tech Innovation Association, and was
-                            selected as a Campus Ambassador for the Huawei Cloud Student Developer (HCSD) Program. From
+                            selected as a <a href="https://developer.huaweicloud.com/program/hcsd/personal?applicationId=8d15318b57df40c0842f8b45015c3b93" target="_blank" rel="noopener noreferrer">Campus Ambassador for the Huawei Cloud Student Developer (HCSD) Program</a>. From
                             January to March 2026, I worked as a <strong>Research Intern</strong> at the Intelligent
                             Manufacturing and Precision Machining Laboratory, Tsinghua University.
                         </p>
                         <p>
                             My research interests center around Micro-nanorobot Autonomous Navigation (VLA Frameworks),
                             Edge-Cloud Collaborative IoT, and Advanced Computer Vision Algorithms for industrial
-                            inspection. I have led 1 Provincial College Student Innovation Project, filed 3 patents, and
-                            authorized 2 software copyrights. I have published or accepted 7 academic papers (4 as first
-                            or co-first author), including papers accepted at IROS, and submissions to JRTIP and other
+                            inspection. In subject competitions, I have won 4 national and 10 provincial awards. I have led 1 Provincial College Student Innovation Project,
+                            filed 3 patents, and authorized 2 software copyrights. I have published or accepted 7 academic
+                            papers (4 as first or co-first author), including papers accepted at IROS, and submissions to JRTIP and other
                             venues.
                         </p>
                     </div>
@@ -213,10 +218,10 @@
                             我毕业于东北石油大学电子科学与技术专业（国家级一流本科专业建设点），荣获<strong>东北石油大学优秀毕业生</strong>，本科毕业设计荣获<strong>优秀毕业设计</strong>。
                         </p>
                         <p>
-                            在校期间，我担任了学校电子工程实验中心创新基地学生总负责人以及天方科技创新创业协会主席，并入选了华为云学生开发者计划(HCSD)的校园大使。2026年1月至3月，我在<strong>清华大学智能制造与精密加工实验室</strong>担任科研实习生。
+                            在校期间，我担任了学校电子工程实验中心创新基地学生总负责人以及天方科技创新创业协会主席，并入选了<a href="https://developer.huaweicloud.com/program/hcsd/personal?applicationId=8d15318b57df40c0842f8b45015c3b93" target="_blank" rel="noopener noreferrer">华为云学生开发者计划(HCSD)的校园大使</a>。2026年1月至3月，我在<strong>清华大学智能制造与精密加工实验室</strong>担任科研实习生。
                         </p>
                         <p>
-                            我的核心研究方向为<strong>微纳机器人自主导航与操控（VLA具身智能框架）</strong>、<strong>云边协同工业物联网</strong>以及<strong>先进计算机视觉缺陷检测算法</strong>。我主持了黑龙江省大学生创新训练计划项目（省级立项）1项，申请专利3项，授权软件著作权2项。已发表或录用学术论文7篇（第一作者或共同第一作者4篇），包括录用于机器人顶会 IROS 论文，以及在投 JRTIP 等期刊会议。
+                            我的核心研究方向为<strong>微纳机器人自主导航与操控（VLA具身智能框架）</strong>、<strong>云边协同工业物联网</strong>以及<strong>先进计算机视觉缺陷检测算法</strong>。在学科竞赛中累计获得国家级奖项 4 项、省级奖项 10 项。我主持了黑龙江省大学生创新训练计划项目（省级立项）1项，申请专利3项，授权软件著作权2项。已发表或录用学术论文7篇（第一作者或共同第一作者4篇），包括录用于机器人顶会 IROS 论文，以及在投 JRTIP 等期刊会议。
                         </p>
                     </div>
                 </div>
@@ -260,7 +265,11 @@
                                 <li>
                                     <span class="lang-en">Granted 1 Software Copyright (1st author) & 1 Patent (1st
                                         inventor).</span>
-                                    <span class="lang-zh">获批软件著作权1项（第一著作权人），授权专利1项（第一发明人）。</span>
+                                    <span class="lang-zh">获批软件著作权1项（第一著作权人），授权专利1项（第一发明人）；</span>
+                                </li>
+                                <li>
+                                    <span class="lang-en">Published 3 first-author papers (1 SCI journal, 2 EI conferences).</span>
+                                    <span class="lang-zh">以第一作者发表学术论文 3 篇（含 1 篇 SCI 期刊、2 篇 EI 会议）。</span>
                                 </li>
                             </ul>
                         </div>
@@ -275,7 +284,7 @@
                             <div class="pcb-gif-grid">
                                 <div class="pcb-gif-item">
                                     <div class="gif-img-wrap">
-                                        <img src="assets/LFDETR.png" alt="LF-DETR Architecture" loading="lazy">
+                                        <img src="assets/LFDETR.webp" alt="LF-DETR Architecture" loading="lazy">
                                     </div>
                                     <span class="pcb-gif-label">
                                         <span class="lang-en">LF-DETR Architecture</span>
@@ -313,7 +322,7 @@
                         </h3>
                         <div class="project-meta">
                             <span class="project-duration">2026.01 - 2026.03</span>
-                            <span class="badge badge-purple"><span class="lang-en">Core Intern Researcher</span><span
+                            <span class="badge badge-purple"><span class="lang-en">Research Intern, Tsinghua University</span><span
                                     class="lang-zh">清华大学科研实习</span></span>
                         </div>
                         <p class="project-desc">
@@ -326,9 +335,12 @@
                             <strong><span class="lang-en">Outcomes:</span><span class="lang-zh">项目成果：</span></strong>
                             <ul>
                                 <li>
-                                    <span class="lang-en">Resulted in a co-first author paper accepted at IROS 2026
-                                        (June 2026).</span>
-                                    <span class="lang-zh">成果产出机器人顶会 IROS 2026 共同第一作者论文（已录用，2026年6月）。</span>
+                                    <span class="lang-en">Published the MicroVLA microrobotic navigation framework (IEEE/RSJ IROS 2026, co-first author).</span>
+                                    <span class="lang-zh">在机器人顶会 IROS 2026 上发表 MicroVLA 微纳机器人导航算法成果（共同第一作者）；</span>
+                                </li>
+                                <li>
+                                    <span class="lang-en">Published the MG-VTLA robotic micro-grasping framework (IEEE/RSJ IROS 2026, 4th author).</span>
+                                    <span class="lang-zh">在机器人顶会 IROS 2026 上发表 MG-VTLA 微观智能抓取框架成果（第四作者）。</span>
                                 </li>
                             </ul>
                         </div>
@@ -424,6 +436,53 @@
                                     <span class="lang-zh">系统整体测量精度达到 87%；波高精度达 ±(0.1 + 3% * 测量值) m，波向精度达 ±3°。</span>
                                 </li>
                             </ul>
+                        </div>
+
+                        <!-- Video/GIF Demonstration -->
+                        <div class="project-demo">
+                            <div class="demo-title">
+                                <i data-lucide="play-circle" class="inline-icon"></i>
+                                <span class="lang-en">Demonstration: System Testing & Simulation</span>
+                                <span class="lang-zh">项目演示：系统测试与重构仿真</span>
+                            </div>
+                            <div class="vla-gif-grid">
+                                <div class="vla-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <video class="demo-video" src="assets/wave_ocean_test.mp4" autoplay loop muted playsinline></video>
+                                    </div>
+                                    <span class="vla-gif-label">
+                                        <span class="lang-en">Ocean Site Test</span>
+                                        <span class="lang-zh">海上实机测试</span>
+                                    </span>
+                                </div>
+                                <div class="vla-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <video class="demo-video" src="assets/wave_gimbal_test.mp4" autoplay loop muted playsinline></video>
+                                    </div>
+                                    <span class="vla-gif-label">
+                                        <span class="lang-en">Gimbal Compensation</span>
+                                        <span class="lang-zh">云台运动补偿测试</span>
+                                    </span>
+                                </div>
+                                <div class="vla-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <video class="demo-video" src="assets/wave_camera_test.mp4" autoplay loop muted playsinline></video>
+                                    </div>
+                                    <span class="vla-gif-label">
+                                        <span class="lang-en">Camera Inversion Test</span>
+                                        <span class="lang-zh">双目相机反演测试</span>
+                                    </span>
+                                </div>
+                                <div class="vla-gif-item">
+                                    <div class="gif-img-wrap">
+                                        <img src="assets/wave_swmodel.webp" alt="SolidWorks Model" loading="lazy">
+                                    </div>
+                                    <span class="vla-gif-label">
+                                        <span class="lang-en">Structural Model</span>
+                                        <span class="lang-zh">结构模型</span>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -537,8 +596,8 @@
                         <div class="pub-header">
                             <span class="pub-number">[5]</span>
                             <div class="pub-badges">
-                                <span class="badge badge-purple">中英双语版 (Bilingual)</span>
-                                <span class="badge badge-orange">北大核心</span>
+                                <span class="badge badge-purple"><span class="lang-en">Bilingual (ZH/EN)</span><span class="lang-zh">中英双语版</span></span>
+                                <span class="badge badge-orange"><span class="lang-en">Peking University Core</span><span class="lang-zh">北大核心</span></span>
                                 <span class="badge badge-green">EI</span>
                                 <span class="badge badge-blue">CSCD</span>
                             </div>
@@ -570,17 +629,20 @@
                         <div class="pub-header">
                             <span class="pub-number">[6]</span>
                             <div class="pub-badges">
-                                <span class="badge badge-orange">科技核心</span>
+                                <span class="badge badge-orange"><span class="lang-en">Technology Core Journal</span><span class="lang-zh">科技核心</span></span>
                             </div>
                         </div>
                         <h3 class="pub-title">
-                            小直径一体化涂覆机器人控制系统设计
+                            <span class="pub-title-en" style="display:block; margin-bottom: 6px;">Design of Control System for Small-diameter Integrated Coating Robot</span>
+                            <span class="pub-title-zh" style="display:block; font-size: 0.95em; color: var(--text-secondary); font-weight: normal;">小直径一体化涂覆机器人控制系统设计</span>
                         </h3>
                         <p class="pub-authors">
-                            李丽萍, 薛皓元, <strong>张哲通</strong>, 董康兴*.
+                            <span class="lang-en">Liping Li, Haoyuan Xue, <strong>Zhetong Zhang</strong>, Kangxing Dong*.</span>
+                            <span class="lang-zh">李丽萍, 薛皓元, <strong>张哲通</strong>, 董康兴*.</span>
                         </p>
                         <p class="pub-venue">
-                            化工自动化及仪表, 52(1), 2025: 56-62+69. (已发表, 科技核心)
+                            <span class="lang-en">Control and Instruments in Chemical Industry, 52(1), 2025: 56-62+69. (Published, Technology Core)</span>
+                            <span class="lang-zh">化工自动化及仪表, 52(1), 2025: 56-62+69. (已发表, 科技核心)</span>
                         </p>
                         <a href="https://kns.cnki.net/kcms2/article/abstract?v=f9AMVDUgxC-zQOsjdjOnzHnUQSxySIISIzmdIM_Xa7T_QmC6vwN5EkjlakGjXHNcVgr5Zyd-n6L-WWrufCu6Oe8p6eqw_IRwCmSrjo8dsaYCf2zPzr56Qy4FDywkkMEJEB7o_c1L9yfeG7_Assow1BYR_QTUSDrkVUn_TyqOhTwdSHkMbGACeQ==&uniplatform=NZKPT&language=CHS" target="_blank" rel="noopener"
                             class="pub-doi-link">
@@ -629,7 +691,7 @@
                             </h4>
                             <p><strong><span class="lang-en">Role:</span><span class="lang-zh">角色：</span></strong> <span
                                     class="lang-en">1st Inventor</span><span class="lang-zh">第一发明人</span> |
-                                <strong>ID:</strong> 2025200779334
+                                <strong>ID:</strong> ZL202520077933.4
                             </p>
                         </div>
                     </div>
@@ -751,15 +813,13 @@
                                 <span class="comp-date">2023.08</span>
                                 <span class="comp-name"><span class="lang-en">National Undergraduate Electronic Design
                                         Contest (NUEDC)</span><span class="lang-zh">全国大学生电子设计竞赛 (电赛)</span></span>
-                                <span class="comp-prize badge badge-orange"><span class="lang-en">National 2nd
-                                        Prize</span><span class="lang-zh">国家二等奖</span></span>
+                                <span class="comp-prize badge badge-orange"><span class="lang-en">National 2nd Prize</span><span class="lang-zh">国家二等奖</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2025.08</span>
                                 <span class="comp-name"><span class="lang-en">China TRIZ Cup Undergraduate Innovation
                                         Method Competition</span><span class="lang-zh">中国TRIZ杯大学生创新方法大赛</span></span>
-                                <span class="comp-prize badge badge-orange"><span class="lang-en">National 2nd
-                                        Prize</span><span class="lang-zh">国家二等奖</span></span>
+                                <span class="comp-prize badge badge-orange"><span class="lang-en">National 2nd Prize</span><span class="lang-zh">国家二等奖</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2024 / 2025</span>
@@ -767,8 +827,7 @@
                                         Innovation Competition</span><span class="lang-zh">中国国际大学生创新大赛
                                         (原互联网+)</span></span>
                                 <span class="comp-prize badge badge-purple"><span class="lang-en">1 National Bronze /
-                                        1 Prov. Gold & 2 Silver</span><span class="lang-zh">国家铜奖 1项 / 省级金奖 1项、银奖
-                                        2项</span></span>
+                                        1 Prov. Gold, 2 Silver & 1 Bronze</span><span class="lang-zh">国家铜奖 1项 / 省级金奖 1项、银奖 2项、铜奖 1项</span></span>
                             </li>
                             <li>
                                 <span class="comp-date">2024.11</span>
@@ -806,6 +865,11 @@
                                 <span class="comp-prize badge badge-blue"><span class="lang-en">Provincial 2nd
                                         Prize</span><span class="lang-zh">省级二等奖</span></span>
                             </li>
+                            <li>
+                                <span class="comp-date">2024.08</span>
+                                <span class="comp-name"><span class="lang-en">National Undergraduate Machinery Innovation Design Competition</span><span class="lang-zh">全国大学生机械创新设计大赛</span></span>
+                                <span class="comp-prize badge badge-blue"><span class="lang-en">Provincial 2nd Prize</span><span class="lang-zh">省级二等奖</span></span>
+                            </li>
                         </ul>
                     </div>
 
@@ -819,11 +883,11 @@
                         </h3>
 
                         <div class="certificate-grid">
-                            <!-- Cert 1: 2024国创赛全国铜奖.png (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2024国创赛全国铜奖.png"
+                            <!-- Cert 1: 2024国创赛全国铜奖.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2024国创赛全国铜奖.webp"
                                 data-lightbox-title="China International College Students Innovation Competition - National Bronze Award | 中国国际大学生创新大赛国家级铜奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2024国创赛全国铜奖.png" alt="Innovation Competition National Bronze Award">
+                                    <img src="assets/2024国创赛全国铜奖.webp" alt="Innovation Competition National Bronze Award">
                                     <div class="cert-overlay-ribbon bronze">
                                         <span>Bronze</span>
                                     </div>
@@ -840,11 +904,11 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 2: 2023电赛全国二等奖.png (Landscape) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2023电赛全国二等奖.png"
+                            <!-- Cert 2: 2023电赛全国二等奖.webp (Landscape) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2023电赛全国二等奖.webp"
                                 data-lightbox-title="National Undergraduate Electronic Design Contest (NUEDC) - National 2nd Prize | 全国大学生电子设计竞赛二等奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2023电赛全国二等奖.png" alt="NUEDC National 2nd Prize">
+                                    <img src="assets/2023电赛全国二等奖.webp" alt="NUEDC National 2nd Prize">
                                     <div class="cert-overlay-ribbon gold">
                                         <span>NUEDC</span>
                                     </div>
@@ -861,11 +925,11 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 5: 2025TRIZ国二.png (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2025TRIZ国二.png"
+                            <!-- Cert 5: 2025TRIZ国二.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2025TRIZ国二.webp"
                                 data-lightbox-title="China TRIZ Cup Undergraduate Innovation Method Competition - National 2nd Prize | 中国TRIZ杯创新方法大赛二等奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2025TRIZ国二.png" alt="TRIZ Cup National 2nd Prize">
+                                    <img src="assets/2025TRIZ国二.webp" alt="TRIZ Cup National 2nd Prize">
                                     <div class="cert-overlay-ribbon gold">
                                         <span>TRIZ</span>
                                     </div>
@@ -876,17 +940,17 @@
                                         <span class="lang-zh">中国TRIZ杯创新方法大赛二等奖</span>
                                     </span>
                                     <span class="certificate-issuer">
-                                        <span class="lang-en">MOST, CAST, PRC</span>
-                                        <span class="lang-zh">科技部、中国科协等</span>
+                                        <span class="lang-en">CAST, PRC</span>
+                                        <span class="lang-zh">中国科协等</span>
                                     </span>
                                 </div>
                             </div>
 
-                            <!-- Cert 8: 2024大物实验竞赛全国三等奖.png (Landscape) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2024大物实验竞赛全国三等奖.png"
+                            <!-- Cert 8: 2024大物实验竞赛全国三等奖.webp (Landscape) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2024大物实验竞赛全国三等奖.webp"
                                 data-lightbox-title="National Undergraduate Physics Experiment Competition - National 3rd Prize | 全国大学生物理实验竞赛三等奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2024大物实验竞赛全国三等奖.png" alt="Physics Experiment National 3rd Prize">
+                                    <img src="assets/2024大物实验竞赛全国三等奖.webp" alt="Physics Experiment National 3rd Prize">
                                     <div class="cert-overlay-ribbon blue">
                                         <span>Physics</span>
                                     </div>
@@ -902,11 +966,11 @@
                                     </span>
                                 </div>
                             </div>
-                            <!-- Cert 3: 2024国创赛省级金奖.jpg (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2024国创赛省级金奖.jpg"
+                            <!-- Cert 3: 2024国创赛省级金奖.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2024国创赛省级金奖.webp"
                                 data-lightbox-title="China International College Students Innovation Competition - Provincial Gold Award | 中国国际大学生创新大赛省级金奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2024国创赛省级金奖.jpg" alt="Innovation Competition Provincial Gold Award">
+                                    <img src="assets/2024国创赛省级金奖.webp" alt="Innovation Competition Provincial Gold Award">
                                     <div class="cert-overlay-ribbon gold">
                                         <span>Gold</span>
                                     </div>
@@ -923,11 +987,11 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 4: 2024光电赛省奖.png (Landscape) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2024光电赛省奖.png"
+                            <!-- Cert 4: 2024光电赛省奖.webp (Landscape) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2024光电赛省奖.webp"
                                 data-lightbox-title="National Undergraduate Optoelectronic Design Competition - Provincial 2nd Prize | 全国大学生光电设计竞赛省级二等奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2024光电赛省奖.png" alt="Optoelectronic Competition Provincial 2nd Prize">
+                                    <img src="assets/2024光电赛省奖.webp" alt="Optoelectronic Competition Provincial 2nd Prize">
                                     <div class="cert-overlay-ribbon blue">
                                         <span>Optoelectronic</span>
                                     </div>
@@ -938,17 +1002,17 @@
                                         <span class="lang-zh">全国大学生光电设计竞赛省级二等奖</span>
                                     </span>
                                     <span class="certificate-issuer">
-                                        <span class="lang-en">Chinese Optical Society</span>
-                                        <span class="lang-zh">中国光学学会</span>
+                                        <span class="lang-en">Heilongjiang Optical Society</span>
+                                        <span class="lang-zh">黑龙江省光学学会</span>
                                     </span>
                                 </div>
                             </div>
 
-                            <!-- Cert 6: 2023数模省级二等奖.jpg (Landscape) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2023数模省级二等奖.jpg"
+                            <!-- Cert 6: 2023数模省级二等奖.webp (Landscape) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2023数模省级二等奖.webp"
                                 data-lightbox-title="National Undergraduate Mathematical Modeling Contest - Provincial 2nd Prize | 全国大学生数学建模竞赛省级二等奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2023数模省级二等奖.jpg" alt="Mathematical Modeling Provincial 2nd Prize">
+                                    <img src="assets/2023数模省级二等奖.webp" alt="Mathematical Modeling Provincial 2nd Prize">
                                     <div class="cert-overlay-ribbon blue">
                                         <span>Modeling</span>
                                     </div>
@@ -965,11 +1029,11 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 7: 2024智能车竞赛省级二等奖.png (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2024智能车竞赛省级二等奖.png"
+                            <!-- Cert 7: 2024智能车竞赛省级二等奖.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2024智能车竞赛省级二等奖.webp"
                                 data-lightbox-title="National University Students Intelligent Car Competition - Northeast Division 2nd Prize | 全国大学生智能汽车竞赛东北赛区二等奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2024智能车竞赛省级二等奖.png" alt="Intelligent Car Northeast 2nd Prize">
+                                    <img src="assets/2024智能车竞赛省级二等奖.webp" alt="Intelligent Car Northeast 2nd Prize">
                                     <div class="cert-overlay-ribbon blue">
                                         <span>Smart Car</span>
                                     </div>
@@ -986,11 +1050,32 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 9: 2024机创赛省级二等奖.png (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2024机创赛省级二等奖.png"
+                            <!-- Cert 11: 2023智能车省级二等奖.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2023智能车省级二等奖.webp"
+                                data-lightbox-title="National University Students Intelligent Car Competition - Northeast Division 2nd Prize | 全国大学生智能汽车竞赛东北赛区二等奖">
+                                <div class="certificate-preview">
+                                    <img src="assets/2023智能车省级二等奖.webp" alt="Intelligent Car Northeast 2nd Prize">
+                                    <div class="cert-overlay-ribbon blue">
+                                        <span>Smart Car</span>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <span class="certificate-title">
+                                        <span class="lang-en">Northeast Division 2nd Prize (Smart Car)</span>
+                                        <span class="lang-zh">全国大学生智能汽车竞赛东北赛区二等奖</span>
+                                    </span>
+                                    <span class="certificate-issuer">
+                                        <span class="lang-en">Chinese Association of Automation</span>
+                                        <span class="lang-zh">中国自动化学会</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- Cert 9: 2024机创赛省级二等奖.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2024机创赛省级二等奖.webp"
                                 data-lightbox-title="National Undergraduate Machinery Innovation Design Competition - Provincial 2nd Prize | 全国大学生机械创新设计大赛省级二等奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2024机创赛省级二等奖.png" alt="Machinery Innovation Provincial 2nd Prize">
+                                    <img src="assets/2024机创赛省级二等奖.webp" alt="Machinery Innovation Provincial 2nd Prize">
                                     <div class="cert-overlay-ribbon blue">
                                         <span>Mechanical</span>
                                     </div>
@@ -1007,11 +1092,11 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 10: 2024年iCAN赛省级一等奖.jpg (Landscape) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2024年iCAN赛省级一等奖.jpg"
+                            <!-- Cert 10: 2024年iCAN赛省级一等奖.webp (Landscape) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2024年iCAN赛省级一等奖.webp"
                                 data-lightbox-title="iCAN College Students Innovation & Entrepreneurship Competition - Provincial 1st Prize | iCAN大学生创新创业大赛省级一等奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2024年iCAN赛省级一等奖.jpg" alt="iCAN Competition Provincial 1st Prize">
+                                    <img src="assets/2024年iCAN赛省级一等奖.webp" alt="iCAN Competition Provincial 1st Prize">
                                     <div class="cert-overlay-ribbon gold">
                                         <span>iCAN</span>
                                     </div>
@@ -1028,32 +1113,11 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 11: 2023智能车省级二等奖.jpg (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2023智能车省级二等奖.jpg"
-                                data-lightbox-title="National University Students Intelligent Car Competition - Northeast Division 2nd Prize | 全国大学生智能汽车竞赛东北赛区二等奖">
-                                <div class="certificate-preview">
-                                    <img src="assets/2023智能车省级二等奖.jpg" alt="Intelligent Car Northeast 2nd Prize">
-                                    <div class="cert-overlay-ribbon blue">
-                                        <span>Smart Car</span>
-                                    </div>
-                                </div>
-                                <div class="certificate-info">
-                                    <span class="certificate-title">
-                                        <span class="lang-en">Northeast Division 2nd Prize (Smart Car)</span>
-                                        <span class="lang-zh">全国大学生智能汽车竞赛东北赛区二等奖</span>
-                                    </span>
-                                    <span class="certificate-issuer">
-                                        <span class="lang-en">Chinese Association of Automation</span>
-                                        <span class="lang-zh">中国自动化学会</span>
-                                    </span>
-                                </div>
-                            </div>
-
-                            <!-- Cert 12: 2025国创赛黑龙江省银奖.jpg (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2025国创赛黑龙江省银奖.jpg"
+                            <!-- Cert 12: 2025国创赛黑龙江省银奖.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2025国创赛黑龙江省银奖.webp"
                                 data-lightbox-title="China International College Students Innovation Competition - Provincial Silver Award | 中国国际大学生创新大赛省级银奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2025国创赛黑龙江省银奖.jpg" alt="Innovation Competition Provincial Silver Award">
+                                    <img src="assets/2025国创赛黑龙江省银奖.webp" alt="Innovation Competition Provincial Silver Award">
                                     <div class="cert-overlay-ribbon silver">
                                         <span>Silver</span>
                                     </div>
@@ -1070,11 +1134,11 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 13: 2025国创赛黑龙江省银奖2.jpg (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2025国创赛黑龙江省银奖2.jpg"
+                            <!-- Cert 13: 2025国创赛黑龙江省银奖2.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2025国创赛黑龙江省银奖2.webp"
                                 data-lightbox-title="China International College Students Innovation Competition - Provincial Silver Award | 中国国际大学生创新大赛省级银奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2025国创赛黑龙江省银奖2.jpg" alt="Innovation Competition Provincial Silver Award 2">
+                                    <img src="assets/2025国创赛黑龙江省银奖2.webp" alt="Innovation Competition Provincial Silver Award 2">
                                     <div class="cert-overlay-ribbon silver">
                                         <span>Silver</span>
                                     </div>
@@ -1091,11 +1155,11 @@
                                 </div>
                             </div>
 
-                            <!-- Cert 14: 2025国创赛黑龙江省铜奖.jpg (Portrait) -->
-                            <div class="certificate-card" data-lightbox-src="assets/2025国创赛黑龙江省铜奖.jpg"
+                            <!-- Cert 14: 2025国创赛黑龙江省铜奖.webp (Portrait) -->
+                            <div class="certificate-card" data-lightbox-src="assets/2025国创赛黑龙江省铜奖.webp"
                                 data-lightbox-title="China International College Students Innovation Competition - Provincial Bronze Award | 中国国际大学生创新大赛省级铜奖">
                                 <div class="certificate-preview">
-                                    <img src="assets/2025国创赛黑龙江省铜奖.jpg" alt="Innovation Competition Provincial Bronze Award">
+                                    <img src="assets/2025国创赛黑龙江省铜奖.webp" alt="Innovation Competition Provincial Bronze Award">
                                     <div class="cert-overlay-ribbon bronze">
                                         <span>Bronze</span>
                                     </div>

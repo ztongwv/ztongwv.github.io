@@ -1626,7 +1626,7 @@ body.light-mode .moon-icon {
     transition: all var(--transition-normal);
     cursor: pointer;
     width: fit-content; /* Shrinkwrap to image width */
-    height: 280px; /* Strictly uniform card height on desktop */
+    height: 270px; /* Strictly uniform card height on desktop */
     box-sizing: border-box;
 }
 
@@ -1637,7 +1637,7 @@ body.light-mode .moon-icon {
 }
 
 .certificate-preview {
-    height: 200px; /* Strictly uniform image height on desktop */
+    height: 190px; /* Strictly uniform image height on desktop */
     width: 100%;
     background: transparent;
     border-radius: var(--border-radius-sm);
@@ -1691,25 +1691,6 @@ body.light-mode .moon-icon {
     }
 }
 
-/* Slightly enlarge the last couple of rows on desktop so the certificate wall
-   has less trailing blank space, while keeping images in the same row equal. */
-@container awards (min-width: 800px) {
-    .certificate-card:nth-last-child(-n + 5) {
-        height: 330px;
-    }
-
-    .certificate-card:nth-last-child(-n + 5) .certificate-preview {
-        height: 250px;
-    }
-
-    .certificate-card:nth-last-child(-n + 2) {
-        height: 380px;
-    }
-
-    .certificate-card:nth-last-child(-n + 2) .certificate-preview {
-        height: 300px;
-    }
-}
 
 .cert-overlay-ribbon {
     position: absolute;
@@ -1945,13 +1926,13 @@ body.light-mode .moon-icon {
     vertical-align: middle;
 }
 
-/* --- VLA 4-GIF Demo Grid --- */
+/* --- VLA 4-GIF Demo Grid (Reused for other 4-column projects) --- */
 .vla-gif-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 10px;
     margin-top: 4px;
-    /* Force single row — never wrap */
+    /* Force single row – never wrap */
     overflow-x: auto;
 }
 
@@ -1973,7 +1954,7 @@ body.light-mode .moon-icon {
     transform: translateY(-2px);
 }
 
-/* Image wrapper: lock to 1.63 ratio, show full image without cropping */
+/* Image wrapper: lock to 1.63 ratio, show full image/video without cropping */
 .vla-gif-item .gif-img-wrap {
     width: 100%;
     aspect-ratio: 1.63;
@@ -1984,7 +1965,8 @@ body.light-mode .moon-icon {
     justify-content: center;
 }
 
-.vla-gif-item img {
+.vla-gif-item img,
+.vla-gif-item video {
     width: 100%;
     height: 100%;
     object-fit: fill;            /* stretch/fill image, matching PowerPoint exactly */
@@ -1992,7 +1974,8 @@ body.light-mode .moon-icon {
     transition: transform var(--transition-normal);
 }
 
-.vla-gif-item:hover img {
+.vla-gif-item:hover img,
+.vla-gif-item:hover video {
     transform: scale(1.03);
 }
 
