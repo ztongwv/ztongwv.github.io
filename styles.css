@@ -2094,3 +2094,18 @@ body.light-mode .moon-icon {
         width: 100%;
     }
 }
+
+/* --- Showcase Grid (3 items, horizontally scrolling on mobile) --- */
+.showcase-gif-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 4px;
+    overflow-x: auto;
+}
+
+@media (max-width: 640px) {
+    .showcase-gif-grid {
+        grid-template-columns: repeat(3, 160px);
+    }
+}
